@@ -43,3 +43,4 @@
 # my_string = 'Hello %s! My name is: %s and my age is %d.' % ('Everyone', my_name, my_age)
 # my_string = f'Hello {"Everyone"}! My name is: {my_name} and my age is: {my_age}.'
 # print(my_string)
+# example new line
