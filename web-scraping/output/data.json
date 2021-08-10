@@ -1,0 +1,5363 @@
+[
+  {
+    "code": "A",
+    "name": "Agricultur\u0103, silvicultur\u0103 \u0219i pescuit",
+    "categories": [
+      {
+        "code": "01",
+        "name": "Agricultur\u0103, v\u00e2n\u0103toare \u0219i servicii anexe",
+        "categories": [
+          {
+            "code": "011",
+            "name": "Cultivarea plantelor nepermanente",
+            "categories": [
+              {
+                "code": "0111",
+                "name": "Cultivarea cerealelor (exclusiv orez), plantelor leguminoase \u0219i a plantelor produc\u0103toare de semin\u021be oleaginoase",
+                "categories": []
+              },
+              {
+                "code": "0112",
+                "name": "Cultivarea orezului",
+                "categories": []
+              },
+              {
+                "code": "0113",
+                "name": "Cultivarea legumelor \u0219i a pepenilor, a r\u0103d\u0103cinoaselor \u0219i tuberculilor",
+                "categories": []
+              },
+              {
+                "code": "0114",
+                "name": "Cultivarea trestiei de zah\u0103r",
+                "categories": []
+              },
+              {
+                "code": "0115",
+                "name": "Cultivarea tutunului",
+                "categories": []
+              },
+              {
+                "code": "0116",
+                "name": "Cultivarea plantelor pentru fibre textile",
+                "categories": []
+              },
+              {
+                "code": "0119",
+                "name": "Cultivarea altor plante din culturi nepermanente",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "012",
+            "name": "Cultivarea plantelor din culturi permanente",
+            "categories": [
+              {
+                "code": "0121",
+                "name": "Cultivarea strugurilor",
+                "categories": []
+              },
+              {
+                "code": "0122",
+                "name": "Cultivarea fructelor tropicale si subtropicale",
+                "categories": []
+              },
+              {
+                "code": "0123",
+                "name": "Cultivarea fructelor citrice",
+                "categories": []
+              },
+              {
+                "code": "0124",
+                "name": "Cultivarea fructelor semintoase si samburoase",
+                "categories": []
+              },
+              {
+                "code": "0125",
+                "name": "Cultivarea fructelor arbu\u0219tilor fructiferi, capsunilor, nuciferilor si a altor pomi fructiferi",
+                "categories": []
+              },
+              {
+                "code": "0126",
+                "name": "Cultivarea fructelor oleaginoase",
+                "categories": []
+              },
+              {
+                "code": "0127",
+                "name": "Cultivarea plantelor pentru prepararea b\u0103uturilor",
+                "categories": []
+              },
+              {
+                "code": "0128",
+                "name": "Cultivarea condimentelor, plantelor aromatice, medicinale si a plantelor de uz farmaceutic",
+                "categories": []
+              },
+              {
+                "code": "0129",
+                "name": "Cultivarea altor plante permanente",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "013",
+            "name": "Cultivarea plantelor pentru inmultire",
+            "categories": [
+              {
+                "code": "0130",
+                "name": "Cultivarea plantelor pentru inmultire",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "014",
+            "name": "Cre\u0219terea animalelor",
+            "categories": [
+              {
+                "code": "0141",
+                "name": "Cre\u0219terea bovinelor de lapte",
+                "categories": []
+              },
+              {
+                "code": "0142",
+                "name": "Cre\u0219terea altor bovine",
+                "categories": []
+              },
+              {
+                "code": "0143",
+                "name": "Cre\u0219terea cailor si a altor cabaline",
+                "categories": []
+              },
+              {
+                "code": "0144",
+                "name": "Cre\u0219terea camilelor si a camelidelor",
+                "categories": []
+              },
+              {
+                "code": "0145",
+                "name": "Cre\u0219terea ovinelor si caprinelor",
+                "categories": []
+              },
+              {
+                "code": "0146",
+                "name": "Cre\u0219terea porcinelor",
+                "categories": []
+              },
+              {
+                "code": "0147",
+                "name": "Cre\u0219terea pasarilor",
+                "categories": []
+              },
+              {
+                "code": "0149",
+                "name": "Cre\u0219terea altor animale",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "015",
+            "name": "Activit\u0103\u021bi in ferme mixte (cultura vegetala combinata cu cre\u0219terea animalelor)",
+            "categories": [
+              {
+                "code": "0150",
+                "name": "Activit\u0103\u021bi in ferme mixte (cultura vegetala combinata cu cre\u0219terea animalelor)",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "016",
+            "name": "Activit\u0103\u021bi auxiliare agriculturii si activit\u0103\u021bi dup\u0103 recoltare",
+            "categories": [
+              {
+                "code": "0161",
+                "name": "Activit\u0103\u021bi auxiliare pentru produc\u021bia vegetala",
+                "categories": []
+              },
+              {
+                "code": "0162",
+                "name": "Activit\u0103\u021bi auxiliare pentru cre\u0219terea animalelor",
+                "categories": []
+              },
+              {
+                "code": "0163",
+                "name": "Activit\u0103\u021bi dup\u0103 recoltare",
+                "categories": []
+              },
+              {
+                "code": "0164",
+                "name": "Pregatirea semin\u021belor",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "017",
+            "name": "Vanatoare, capturarea cu capcane a vanatului si activit\u0103\u021bi de servicii anexe vanatorii",
+            "categories": [
+              {
+                "code": "0170",
+                "name": "Vanatoare,capturarea cu capcane a vanatului si activit\u0103\u021bi de servicii anexe vanatorii",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "02",
+        "name": "Silvicultur\u0103 \u0219i exploatare forestier\u0103",
+        "categories": [
+          {
+            "code": "021",
+            "name": "Silvicultura si alte activit\u0103\u021bi forestiere",
+            "categories": [
+              {
+                "code": "0210",
+                "name": "Silvicultura si alte activit\u0103\u021bi forestiere",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "022",
+            "name": "Exploatarea forestiera",
+            "categories": [
+              {
+                "code": "0220",
+                "name": "Exploatarea forestiera",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "023",
+            "name": "Colectarea produselor forestiere nelemnoase din flora spontana",
+            "categories": [
+              {
+                "code": "0230",
+                "name": "Colectarea produselor forestiere nelemnoase din flora spontana",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "024",
+            "name": "Activit\u0103\u021bi de servicii anexe silviculturii",
+            "categories": [
+              {
+                "code": "0240",
+                "name": "Activit\u0103\u021bi de servicii anexe silviculturii",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "03",
+        "name": "Pescuitul \u0219i acvacultura",
+        "categories": [
+          {
+            "code": "031",
+            "name": "Pescuitul",
+            "categories": [
+              {
+                "code": "0311",
+                "name": "Pescuitul maritim",
+                "categories": []
+              },
+              {
+                "code": "0312",
+                "name": "Pescuitul in ape dulci",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "032",
+            "name": "Acvacultura",
+            "categories": [
+              {
+                "code": "0321",
+                "name": "Acvacultura maritima",
+                "categories": []
+              },
+              {
+                "code": "0322",
+                "name": "Acvacultura in ape dulci",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "B",
+    "name": "Industria extractiv\u0103",
+    "categories": [
+      {
+        "code": "05",
+        "name": "Extrac\u021bia c\u0103rbunelui superior \u0219i inferior",
+        "categories": [
+          {
+            "code": "051",
+            "name": "Extrac\u021bia carbunelui superior (PCS=>23865 kJ/kg)",
+            "categories": [
+              {
+                "code": "0510",
+                "name": "Extrac\u021bia carbunelui superior (PCS=>23865 kJ/kg)",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "052",
+            "name": "Extrac\u021bia carbunelui inferior (PCS<23865 kJ/kg)",
+            "categories": [
+              {
+                "code": "0520",
+                "name": "Extrac\u021bia carbunelui inferior (PCS",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "06",
+        "name": "Extrac\u021bia petrolului brut \u0219i a gazelor naturale",
+        "categories": [
+          {
+            "code": "061",
+            "name": "Extrac\u021bia petrolului brut",
+            "categories": [
+              {
+                "code": "0610",
+                "name": "Extrac\u021bia petrolului brut",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "062",
+            "name": "Extrac\u021bia gazelor naturale",
+            "categories": [
+              {
+                "code": "0620",
+                "name": "Extrac\u021bia gazelor naturale",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "07",
+        "name": "Extrac\u021bia minereurilor metalifere",
+        "categories": [
+          {
+            "code": "071",
+            "name": "Extrac\u021bia minereurilor feroase",
+            "categories": [
+              {
+                "code": "0710",
+                "name": "Extrac\u021bia minereurilor feroase",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "072",
+            "name": "Extrac\u021bia minereurilor metalifere neferoase",
+            "categories": [
+              {
+                "code": "0721",
+                "name": "Extrac\u021bia minereurilor de uraniu si toriu",
+                "categories": []
+              },
+              {
+                "code": "0729",
+                "name": "Extrac\u021bia altor minereuri metalifere neferoase",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "08",
+        "name": "Alte activit\u0103\u021bi extractive",
+        "categories": [
+          {
+            "code": "081",
+            "name": "Extrac\u021bia pietrei, nisipului si argilei",
+            "categories": [
+              {
+                "code": "0811",
+                "name": "Extrac\u021bia pietrei ornamentale si a pietrei pentru construc\u021bii, extrac\u021bia pietrei calcaroase, ghipsului, cretei si a ardeziei",
+                "categories": []
+              },
+              {
+                "code": "0812",
+                "name": "Extrac\u021bia pietrisului si nisipului; extrac\u021bia argilei si caolinului",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "089",
+            "name": "Alte activit\u0103\u021bi extractive n.c.a.",
+            "categories": [
+              {
+                "code": "0891",
+                "name": "Extrac\u021bia mineralelor pentru industria chimica si a ingrasamintelor naturale",
+                "categories": []
+              },
+              {
+                "code": "0892",
+                "name": "Extrac\u021bia turbei",
+                "categories": []
+              },
+              {
+                "code": "0893",
+                "name": "Extrac\u021bia sarii",
+                "categories": []
+              },
+              {
+                "code": "0899",
+                "name": "Alte activit\u0103\u021bi extractive n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "09",
+        "name": "Activit\u0103\u021bi de servicii anexe extrac\u021biei",
+        "categories": [
+          {
+            "code": "091",
+            "name": "Activit\u0103\u021bi de servicii anexe extrac\u021biei petrolului brut si gazelor naturale",
+            "categories": [
+              {
+                "code": "0910",
+                "name": "Activit\u0103\u021bi de servicii anexe extrac\u021biei petrolului brut si gazelor naturale",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "099",
+            "name": "Activit\u0103\u021bi de servicii anexe pentru extrac\u021bia mineralelor",
+            "categories": [
+              {
+                "code": "0990",
+                "name": "Activit\u0103\u021bi de servicii anexe pentru extrac\u021bia mineralelor",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C",
+    "name": "Industria prelucr\u0103toare",
+    "categories": [
+      {
+        "code": "10",
+        "name": "Industria alimentar\u0103",
+        "categories": [
+          {
+            "code": "101",
+            "name": "Produc\u021bia, prelucrarea si conservarea carnii si a produselor din carne",
+            "categories": [
+              {
+                "code": "1011",
+                "name": "Prelucrarea si conservarea carnii",
+                "categories": []
+              },
+              {
+                "code": "1012",
+                "name": "Prelucrarea si conservarea carnii de pasare",
+                "categories": []
+              },
+              {
+                "code": "1013",
+                "name": "Fabricarea produselor din carne (inclusiv din carne de pasare)",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "102",
+            "name": "Prelucrarea si conservarea pestelui, crustaceelor si molustelor",
+            "categories": [
+              {
+                "code": "1020",
+                "name": "Prelucrarea si conservarea pestelui, crustaceelor si molustelor",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "103",
+            "name": "Prelucrarea si conservarea fructelor si legumelor",
+            "categories": [
+              {
+                "code": "1031",
+                "name": "Prelucrarea si conservarea cartofilor",
+                "categories": []
+              },
+              {
+                "code": "1032",
+                "name": "Fabricarea sucurilor de fructe si legume",
+                "categories": []
+              },
+              {
+                "code": "1039",
+                "name": "Prelucrarea si conservarea fructelor si legumelor n.c.a.",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "104",
+            "name": "Fabricarea uleiurilor si a grasimilor vegetale si animale",
+            "categories": [
+              {
+                "code": "1041",
+                "name": "Fabricarea uleiurilor si grasimilor",
+                "categories": []
+              },
+              {
+                "code": "1042",
+                "name": "Fabricarea margarinei si a altor produse comestibile similare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "105",
+            "name": "Fabricarea produselor lactate",
+            "categories": [
+              {
+                "code": "1051",
+                "name": "Fabricarea produselor lactate si a branzeturilor",
+                "categories": []
+              },
+              {
+                "code": "1052",
+                "name": "Fabricarea inghetatei",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "106",
+            "name": "Fabricarea produselor de morarit, a amidonului si produselor din amidon",
+            "categories": [
+              {
+                "code": "1061",
+                "name": "Fabricarea produselor de morarit",
+                "categories": []
+              },
+              {
+                "code": "1062",
+                "name": "Fabricarea amidonului si a produselor din amidon",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "107",
+            "name": "Fabricarea produselor de brutarie si a produselor fainoase",
+            "categories": [
+              {
+                "code": "1071",
+                "name": "Fabricarea painii; fabricarea prajiturilor si a produselor proaspete de patiserie",
+                "categories": []
+              },
+              {
+                "code": "1072",
+                "name": "Fabricarea biscuitilor si piscoturilor; fabricarea prajiturilor si a produselor conservate de patiserie",
+                "categories": []
+              },
+              {
+                "code": "1073",
+                "name": "Fabricarea macaroanelor, taiteilor, cus-cus-ului si a altor produse fainoase similare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "108",
+            "name": "Fabricarea altor produse alimentare",
+            "categories": [
+              {
+                "code": "1081",
+                "name": "Fabricarea zaharului",
+                "categories": []
+              },
+              {
+                "code": "1082",
+                "name": "Fabricarea produselor din cacao, a ciocolatei si a produselor zaharoase",
+                "categories": []
+              },
+              {
+                "code": "1083",
+                "name": "Prelucrarea ceaiului si cafelei",
+                "categories": []
+              },
+              {
+                "code": "1084",
+                "name": "Fabricarea condimentelor si ingredientelor",
+                "categories": []
+              },
+              {
+                "code": "1085",
+                "name": "Fabricarea de mancaruri preparate",
+                "categories": []
+              },
+              {
+                "code": "1086",
+                "name": "Fabricarea preparatelor alimentare omogenizate si alimentelor dietetice",
+                "categories": []
+              },
+              {
+                "code": "1089",
+                "name": "Fabricarea altor produse alimentare n.c.a.",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "109",
+            "name": "Fabricarea preparatelor pentru hrana animalelor",
+            "categories": [
+              {
+                "code": "1091",
+                "name": "Fabricarea preparatelor pentru hrana animalelor de ferma",
+                "categories": []
+              },
+              {
+                "code": "1092",
+                "name": "Fabricarea preparatelor pentru hrana animalelor de companie",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "11",
+        "name": "Fabricarea b\u0103uturilor",
+        "categories": [
+          {
+            "code": "110",
+            "name": "Fabricarea b\u0103uturilor",
+            "categories": [
+              {
+                "code": "1101",
+                "name": "Distilarea, rafinarea si mixarea b\u0103uturilor alcoolice",
+                "categories": []
+              },
+              {
+                "code": "1102",
+                "name": "Fabricarea vinurilor din struguri",
+                "categories": []
+              },
+              {
+                "code": "1103",
+                "name": "Fabricarea cidrului si a altor vinuri din fructe",
+                "categories": []
+              },
+              {
+                "code": "1104",
+                "name": "Fabricarea altor bauturi nedistilate, ob\u021binute prin fermentare",
+                "categories": []
+              },
+              {
+                "code": "1105",
+                "name": "Fabricarea berii",
+                "categories": []
+              },
+              {
+                "code": "1106",
+                "name": "Fabricarea maltului",
+                "categories": []
+              },
+              {
+                "code": "1107",
+                "name": "Produc\u021bia de bauturi racoritoare nealcoolice; produc\u021bia de ape minerale si alte ape imbuteliate",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "12",
+        "name": "Fabricarea produselor din tutun",
+        "categories": [
+          {
+            "code": "120",
+            "name": "Fabricarea produselor din tutun",
+            "categories": [
+              {
+                "code": "1200",
+                "name": "Fabricarea produselor din tutun",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "13",
+        "name": "Fabricarea produselor textile",
+        "categories": [
+          {
+            "code": "131",
+            "name": "Pregatirea fibrelor si filarea fibrelor textile",
+            "categories": [
+              {
+                "code": "1310",
+                "name": "Pregatirea fibrelor si filarea fibrelor textile",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "132",
+            "name": "Produc\u021bia de tesaturi",
+            "categories": [
+              {
+                "code": "1320",
+                "name": "Produc\u021bia de tesaturi",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "133",
+            "name": "Finisarea materialelor textile",
+            "categories": [
+              {
+                "code": "1330",
+                "name": "Finisarea materialelor textile",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "139",
+            "name": "Fabricarea altor articole textile",
+            "categories": [
+              {
+                "code": "1391",
+                "name": "Fabricarea de metraje prin tricotare sau crosetare",
+                "categories": []
+              },
+              {
+                "code": "1392",
+                "name": "Fabricarea de articole confectionate din textile (cu excep\u021bia imbracamintei si lenjeriei de corp)",
+                "categories": []
+              },
+              {
+                "code": "1393",
+                "name": "Fabricarea de covoare si mochete",
+                "categories": []
+              },
+              {
+                "code": "1394",
+                "name": "Fabricarea de odgoane, franghii, sfori si plase",
+                "categories": []
+              },
+              {
+                "code": "1395",
+                "name": "Fabricarea de textile netesute si articole din acestea, cu excep\u021bia confectiilor de imbracaminte",
+                "categories": []
+              },
+              {
+                "code": "1396",
+                "name": "Fabricarea de articole tehnice si industriale din textile",
+                "categories": []
+              },
+              {
+                "code": "1399",
+                "name": "Fabricarea altor articole textile n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "14",
+        "name": "Fabricarea articolelor de \u00eembr\u0103c\u0103minte",
+        "categories": [
+          {
+            "code": "141",
+            "name": "Fabricarea articolelor de imbracaminte, cu excep\u021bia articolelor din blana",
+            "categories": [
+              {
+                "code": "1411",
+                "name": "Fabricarea articolelor de imbracaminte din piele",
+                "categories": []
+              },
+              {
+                "code": "1412",
+                "name": "Fabricarea de articole de imbracaminte pentru lucru",
+                "categories": []
+              },
+              {
+                "code": "1413",
+                "name": "Fabricarea altor articole de imbracaminte (exclusiv lenjeria de corp)",
+                "categories": []
+              },
+              {
+                "code": "1414",
+                "name": "Fabricarea de articole de lenjerie de corp",
+                "categories": []
+              },
+              {
+                "code": "1419",
+                "name": "Fabricarea altor articole de imbracaminte si accesorii n.c.a.",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "142",
+            "name": "Fabricarea articolelor din blana",
+            "categories": [
+              {
+                "code": "1420",
+                "name": "Fabricarea articolelor din blana",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "143",
+            "name": "Fabricarea articolelor de imbracaminte prin tricotare sau crosetare",
+            "categories": [
+              {
+                "code": "1431",
+                "name": "Fabricarea prin tricotare sau crosetare a ciorapilor si articolelor de galanterie",
+                "categories": []
+              },
+              {
+                "code": "1439",
+                "name": "Fabricarea prin tricotare sau crosetare a altor articole de imbracaminte",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "15",
+        "name": "T\u0103b\u0103cirea \u0219i finisarea pieilor; fabricarea articolelor de voiaj \u0219i marochin\u0103rie, harna\u0219amentelor \u0219i \u00eenc\u0103l\u021b\u0103mintei; prepararea \u0219i vopsirea bl\u0103nurilor",
+        "categories": [
+          {
+            "code": "151",
+            "name": "T\u0103b\u0103cirea si finisarea pieilor; fabricarea articolelor de voiaj si marochinarie si a articolelor de harnasament; prepararea si vopsirea blanurilor",
+            "categories": [
+              {
+                "code": "1511",
+                "name": "T\u0103b\u0103cirea si finisarea pieilor; prepararea si vopsirea blanurilor",
+                "categories": []
+              },
+              {
+                "code": "1512",
+                "name": "Fabricarea articolelor de voiaj si marochinarie si a articolelor de harnasament",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "152",
+            "name": "Fabricarea incaltamintei",
+            "categories": [
+              {
+                "code": "1520",
+                "name": "Fabricarea incaltamintei",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "16",
+        "name": "Prelucrarea lemnului, fabricarea produselor din lemn \u0219i plut\u0103, cu excep\u021bia mobilei; fabricarea articolelor din paie \u0219i din alte materiale vegetale \u00eempletite",
+        "categories": [
+          {
+            "code": "161",
+            "name": "T\u0103ierea si rindeluirea lemnului",
+            "categories": [
+              {
+                "code": "1610",
+                "name": "T\u0103ierea si rindeluirea lemnului",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "162",
+            "name": "Fabricarea produselor din lemn, pluta, paie si din alte materiale vegetale",
+            "categories": [
+              {
+                "code": "1621",
+                "name": "Fabricarea de furnire si a panourilor de lemn",
+                "categories": []
+              },
+              {
+                "code": "1622",
+                "name": "Fabricarea parchetului asamblat in panouri",
+                "categories": []
+              },
+              {
+                "code": "1623",
+                "name": "Fabricarea altor elemente de dulgherie si tamplarie, pentru construc\u021bii",
+                "categories": []
+              },
+              {
+                "code": "1624",
+                "name": "Fabricarea ambalajelor din lemn",
+                "categories": []
+              },
+              {
+                "code": "1629",
+                "name": "Fabricarea altor produse din lemn; fabricarea articolelor din pluta, paie si din alte materiale vegetale impletite",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "17",
+        "name": "Fabricarea h\u00e2rtiei \u0219i a produselor din h\u00e2rtie",
+        "categories": [
+          {
+            "code": "171",
+            "name": "Fabricarea celulozei, h\u00e2rtiei si cartonului",
+            "categories": [
+              {
+                "code": "1711",
+                "name": "Fabricarea celulozei",
+                "categories": []
+              },
+              {
+                "code": "1712",
+                "name": "Fabricarea h\u00e2rtiei si cartonului",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "172",
+            "name": "Fabricarea articolelor din h\u00e2rtie \u0219i carton",
+            "categories": [
+              {
+                "code": "1721",
+                "name": "Fabricarea h\u00e2rtiei si cartonului ondulat si a ambalajelor din hartie si carton",
+                "categories": []
+              },
+              {
+                "code": "1722",
+                "name": "Fabricarea produselor de uz gospodaresc si sanitar, din hartie sau carton",
+                "categories": []
+              },
+              {
+                "code": "1723",
+                "name": "Fabricarea articolelor de papetarie",
+                "categories": []
+              },
+              {
+                "code": "1724",
+                "name": "Fabricarea tapetului",
+                "categories": []
+              },
+              {
+                "code": "1729",
+                "name": "Fabricarea altor articole din h\u00e2rtie \u0219i carton n.c.a",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "18",
+        "name": "Tip\u0103rire \u0219i reproducerea pe supor\u021bi a \u00eenregistr\u0103rilor",
+        "categories": [
+          {
+            "code": "181",
+            "name": "Alte activit\u0103\u021bi de tiparire n.c.a.",
+            "categories": [
+              {
+                "code": "1811",
+                "name": "Tiparirea ziarelor",
+                "categories": []
+              },
+              {
+                "code": "1812",
+                "name": "Alte activit\u0103\u021bi de tiparire n.c.a.",
+                "categories": []
+              },
+              {
+                "code": "1813",
+                "name": "Servicii pregatitoare pentru pretiparire",
+                "categories": []
+              },
+              {
+                "code": "1814",
+                "name": "Legatorie si servicii conexe",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "182",
+            "name": "Reproducerea inregistrarilor",
+            "categories": [
+              {
+                "code": "1820",
+                "name": "Reproducerea inregistrarilor",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "19",
+        "name": "Fabricarea produselor de cocserie \u0219i a produselor ob\u021binute din prelucrarea \u021bi\u021beiului",
+        "categories": [
+          {
+            "code": "191",
+            "name": "Fabricarea produselor de cocserie",
+            "categories": [
+              {
+                "code": "1910",
+                "name": "Fabricarea produselor de cocserie",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "192",
+            "name": "Fabricarea produselor ob\u021binute din prelucrarea titeiului",
+            "categories": [
+              {
+                "code": "1920",
+                "name": "Fabricarea produselor ob\u021binute din prelucrarea titeiului",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "20",
+        "name": "Fabricarea substan\u021belor \u0219i a produselor chimice",
+        "categories": [
+          {
+            "code": "201",
+            "name": "Fabricarea produselor chimice de baza, a ingrasamintelor si produselor azotoase; fabricarea materialelor plastice si a cauciucului sintetic, in forme primare",
+            "categories": [
+              {
+                "code": "2011",
+                "name": "Fabricarea gazelor industriale",
+                "categories": []
+              },
+              {
+                "code": "2012",
+                "name": "Fabricarea colorantilor si a pigmentilor",
+                "categories": []
+              },
+              {
+                "code": "2013",
+                "name": "Fabricarea altor produse chimice anorganice, de baza",
+                "categories": []
+              },
+              {
+                "code": "2014",
+                "name": "Fabricarea altor produse chimice organice, de baza",
+                "categories": []
+              },
+              {
+                "code": "2015",
+                "name": "Fabricarea ingrasamintelor si produselor azotoase",
+                "categories": []
+              },
+              {
+                "code": "2016",
+                "name": "Fabricarea materialelor plastice in forme primare",
+                "categories": []
+              },
+              {
+                "code": "2017",
+                "name": "Fabricarea cauciucului sintetic in forme primare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "202",
+            "name": "Fabricarea pesticidelor si a altor produse agrochimice",
+            "categories": [
+              {
+                "code": "2020",
+                "name": "Fabricarea pesticidelor si a altor produse agrochimice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "203",
+            "name": "Fabricarea vopselelor, lacurilor, cernelii tipografice si masticurilor",
+            "categories": [
+              {
+                "code": "2030",
+                "name": "Fabricarea vopselelor, lacurilor, cernelii tipografice si masticurilor",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "204",
+            "name": "Fabricarea sapunurilor, detergentilor si a produselor de intretinere, cosmetice si de parfumerie",
+            "categories": [
+              {
+                "code": "2041",
+                "name": "Fabricarea sapunurilor, detergentilor si a produselor de intretinere",
+                "categories": []
+              },
+              {
+                "code": "2042",
+                "name": "Fabricarea parfumurilor si a produselor cosmetice (de toaleta)",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "205",
+            "name": "Fabricarea altor produse chimice",
+            "categories": [
+              {
+                "code": "2051",
+                "name": "Fabricarea explozivilor",
+                "categories": []
+              },
+              {
+                "code": "2052",
+                "name": "Fabricarea cleiurilor",
+                "categories": []
+              },
+              {
+                "code": "2053",
+                "name": "Fabricarea uleiurilor esentiale",
+                "categories": []
+              },
+              {
+                "code": "2059",
+                "name": "Fabricarea altor produse chimice n.c.a.",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "206",
+            "name": "Fabricarea fibrelor sintetice si artificiale",
+            "categories": [
+              {
+                "code": "2060",
+                "name": "Fabricarea fibrelor sintetice si artificiale",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "21",
+        "name": "Fabricarea produselor farmaceutice de baz\u0103 \u0219i a preparatelor farmaceutice",
+        "categories": [
+          {
+            "code": "211",
+            "name": "Fabricarea produselor farmaceutice de baza",
+            "categories": [
+              {
+                "code": "2110",
+                "name": "Fabricarea produselor farmaceutice de baza",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "212",
+            "name": "Fabricarea preparatelor farmaceutice",
+            "categories": [
+              {
+                "code": "2120",
+                "name": "Fabricarea preparatelor farmaceutice",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "22",
+        "name": "Fabricarea produselor din cauciuc \u0219i mase plastice",
+        "categories": [
+          {
+            "code": "221",
+            "name": "Fabricarea articolelor din cauciuc",
+            "categories": [
+              {
+                "code": "2211",
+                "name": "Fabricarea anvelopelor si a camerelor de aer; re\u0219aparea si refacerea anvelopelor",
+                "categories": []
+              },
+              {
+                "code": "2219",
+                "name": "Fabricarea altor produse din cauciuc",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "222",
+            "name": "Fabricarea articolelor de ambalaj din material plastic",
+            "categories": [
+              {
+                "code": "2221",
+                "name": "Fabricarea placilor, foliilor, tuburilor si profilelor din material plastic",
+                "categories": []
+              },
+              {
+                "code": "2222",
+                "name": "Fabricarea articolelor de ambalaj din material plastic",
+                "categories": []
+              },
+              {
+                "code": "2223",
+                "name": "Fabricarea articolelor din material plastic pentru construc\u021bii",
+                "categories": []
+              },
+              {
+                "code": "2229",
+                "name": "Fabricarea altor produse din material plastic",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "23",
+        "name": "Fabricarea altor produse din minerale nemetalice",
+        "categories": [
+          {
+            "code": "231",
+            "name": "Fabricarea sticlei si a articolelor din sticla",
+            "categories": [
+              {
+                "code": "2311",
+                "name": "Fabricarea sticlei plate",
+                "categories": []
+              },
+              {
+                "code": "2312",
+                "name": "Prelucrarea si fasonarea sticlei plate",
+                "categories": []
+              },
+              {
+                "code": "2313",
+                "name": "Fabricarea articolelor din sticla",
+                "categories": []
+              },
+              {
+                "code": "2314",
+                "name": "Fabricarea fibrelor din sticla",
+                "categories": []
+              },
+              {
+                "code": "2319",
+                "name": "Fabricarea de sticlarie tehnica",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "232",
+            "name": "Fabricarea de produse refractare",
+            "categories": [
+              {
+                "code": "2320",
+                "name": "Fabricarea de produse refractare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "233",
+            "name": "Fabricarea materialelor de construc\u021bii din argila",
+            "categories": [
+              {
+                "code": "2331",
+                "name": "Fabricarea placilor si dalelor din ceramica",
+                "categories": []
+              },
+              {
+                "code": "2332",
+                "name": "Fabricarea c\u0103r\u0103mizilor, tiglelor si a altor produse pentru construc\u021bii, din argila arsa",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "234",
+            "name": "Fabricarea altor articole din ceramica si portelan",
+            "categories": [
+              {
+                "code": "2341",
+                "name": "Fabricarea articolelor ceramice pentru uz gospodaresc si ornamental",
+                "categories": []
+              },
+              {
+                "code": "2342",
+                "name": "Fabricarea de obiecte sanitare din ceramica",
+                "categories": []
+              },
+              {
+                "code": "2343",
+                "name": "Fabricarea izolatorilor si pieselor izolante din ceramica",
+                "categories": []
+              },
+              {
+                "code": "2344",
+                "name": "Fabricarea altor produse tehnice din ceramica",
+                "categories": []
+              },
+              {
+                "code": "2349",
+                "name": "Fabricarea altor produse ceramice n.c.a.",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "235",
+            "name": "Fabricarea cimentului, varului si ipsosului",
+            "categories": [
+              {
+                "code": "2351",
+                "name": "Fabricarea cimentului",
+                "categories": []
+              },
+              {
+                "code": "2352",
+                "name": "Fabricarea varului si ipsosului",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "236",
+            "name": "Fabricarea articolelor din beton, ciment si ipsos",
+            "categories": [
+              {
+                "code": "2361",
+                "name": "Fabricarea produselor din beton pentru construc\u021bii",
+                "categories": []
+              },
+              {
+                "code": "2362",
+                "name": "Fabricarea produselor din ipsos pentru construc\u021bii",
+                "categories": []
+              },
+              {
+                "code": "2363",
+                "name": "Fabricarea betonului",
+                "categories": []
+              },
+              {
+                "code": "2364",
+                "name": "Fabricarea mortarului",
+                "categories": []
+              },
+              {
+                "code": "2365",
+                "name": "Fabricarea produselor din azbociment",
+                "categories": []
+              },
+              {
+                "code": "2369",
+                "name": "Fabricarea altor articole din beton, ciment si ipsos",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "237",
+            "name": "T\u0103ierea, fasonarea si finisarea pietrei",
+            "categories": [
+              {
+                "code": "2370",
+                "name": "T\u0103ierea, fasonarea si finisarea pietrei",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "239",
+            "name": "Fabricarea produselor abrazive si a altor produse din minerale nemetalice n.c.a.",
+            "categories": [
+              {
+                "code": "2391",
+                "name": "Fabricarea de produse abrazive",
+                "categories": []
+              },
+              {
+                "code": "2399",
+                "name": "Fabricarea altor produse din minerale nemetalice, n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "24",
+        "name": "Industria metalurgic\u0103",
+        "categories": [
+          {
+            "code": "241",
+            "name": "Produc\u021bia de metale feroase sub forme primare si de feroaliaje",
+            "categories": [
+              {
+                "code": "2410",
+                "name": "Produc\u021bia de metale feroase sub forme primare si de feroaliaje",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "242",
+            "name": "Produc\u021bia de tuburi, tevi, profile tubulare si accesorii pentru acestea, din otel",
+            "categories": [
+              {
+                "code": "2420",
+                "name": "Produc\u021bia de tuburi, tevi, profile tubulare si accesorii pentru acestea, din otel",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "243",
+            "name": "Produc\u021bia de profile ob\u021binute la rece",
+            "categories": [
+              {
+                "code": "2431",
+                "name": "Tragere la rece a barelor",
+                "categories": []
+              },
+              {
+                "code": "2432",
+                "name": "Laminare la rece a benzilor inguste",
+                "categories": []
+              },
+              {
+                "code": "2433",
+                "name": "Produc\u021bia de profile ob\u021binute la rece",
+                "categories": []
+              },
+              {
+                "code": "2434",
+                "name": "Trefilarea firelor la rece",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "244",
+            "name": "Produc\u021bia metalelor pretioase si a altor metale neferoase",
+            "categories": [
+              {
+                "code": "2441",
+                "name": "Produc\u021bia metalelor pretioase",
+                "categories": []
+              },
+              {
+                "code": "2442",
+                "name": "Metalurgia aluminiului",
+                "categories": []
+              },
+              {
+                "code": "2443",
+                "name": "Produc\u021bia plumbului, zincului si cositorului",
+                "categories": []
+              },
+              {
+                "code": "2444",
+                "name": "Metalurgia cuprului",
+                "categories": []
+              },
+              {
+                "code": "2445",
+                "name": "Produc\u021bia altor metale neferoase",
+                "categories": []
+              },
+              {
+                "code": "2446",
+                "name": "Prelucrarea combustibililor nucleari",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "245",
+            "name": "Turnarea metalelor",
+            "categories": [
+              {
+                "code": "2451",
+                "name": "Turnarea fontei",
+                "categories": []
+              },
+              {
+                "code": "2452",
+                "name": "Turnarea otelului",
+                "categories": []
+              },
+              {
+                "code": "2453",
+                "name": "Turnarea metalelor neferoase usoare",
+                "categories": []
+              },
+              {
+                "code": "2454",
+                "name": "Turnarea altor metale neferoase",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "25",
+        "name": "Industria construc\u021biilor metalice \u0219i a produselor din metal, exclusiv ma\u0219ini, utilaje \u0219i instala\u021bii",
+        "categories": [
+          {
+            "code": "251",
+            "name": "Fabricarea de construc\u021bii metalice",
+            "categories": [
+              {
+                "code": "2511",
+                "name": "Fabricarea de construc\u021bii metalice si parti componente ale structurilor metalice",
+                "categories": []
+              },
+              {
+                "code": "2512",
+                "name": "Fabricarea de usi si ferestre din metal",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "252",
+            "name": "Produc\u021bia de rezervoare, cisterne si containere metalice; produc\u021bia de radiatoare si cazane pentru incalzire centrala",
+            "categories": [
+              {
+                "code": "2521",
+                "name": "Produc\u021bia de radiatoare si cazane pentru incalzire centrala",
+                "categories": []
+              },
+              {
+                "code": "2529",
+                "name": "Produc\u021bia de rezervoare, cisterne si containere metalice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "253",
+            "name": "Produc\u021bia generatoarelor de aburi (cu excep\u021bia cazanelor pentru incalzire centrala)",
+            "categories": [
+              {
+                "code": "2530",
+                "name": "Produc\u021bia generatoarelor de aburi (cu excep\u021bia cazanelor pentru incalzire centrala)",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "254",
+            "name": "Fabricarea armamentului si muni\u021biei",
+            "categories": [
+              {
+                "code": "2540",
+                "name": "Fabricarea armamentului si muni\u021biei",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "255",
+            "name": "Fabricarea produselor metalice ob\u021binute prin deformare plastica; metalurgia pulberilor",
+            "categories": [
+              {
+                "code": "2550",
+                "name": "Fabricarea produselor metalice ob\u021binute prin deformare plastica; metalurgia pulberilor",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "256",
+            "name": "Tratarea si acoperirea metalelor; operatiuni de mecanica generala pe baza de plata sau contract",
+            "categories": [
+              {
+                "code": "2561",
+                "name": "Tratarea si acoperirea metalelor",
+                "categories": []
+              },
+              {
+                "code": "2562",
+                "name": "Operatiuni de mecanica generala",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "257",
+            "name": "Produc\u021bia de unelte si articole de fierarie",
+            "categories": [
+              {
+                "code": "2571",
+                "name": "Fabricarea produselor de taiat",
+                "categories": []
+              },
+              {
+                "code": "2572",
+                "name": "Fabricarea articolelor de feronerie",
+                "categories": []
+              },
+              {
+                "code": "2573",
+                "name": "Fabricarea uneltelor",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "259",
+            "name": "Fabricarea altor produse prelucrate din metal",
+            "categories": [
+              {
+                "code": "2591",
+                "name": "Fabricarea de recipienti, containere si alte produse similare din otel",
+                "categories": []
+              },
+              {
+                "code": "2592",
+                "name": "Fabricarea ambalajelor usoare din metal",
+                "categories": []
+              },
+              {
+                "code": "2593",
+                "name": "Fabricarea articolelor din fire metalice; fabricarea de lanturi si arcuri",
+                "categories": []
+              },
+              {
+                "code": "2594",
+                "name": "Fabricarea de suruburi, buloane si alte articole filetate; fabricarea de nituri si saibe",
+                "categories": []
+              },
+              {
+                "code": "2599",
+                "name": "Fabricarea altor articole din metal n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "26",
+        "name": "Fabricarea calculatoarelor \u0219i a produselor electronice \u0219i optice",
+        "categories": [
+          {
+            "code": "261",
+            "name": "Fabricarea componentelor electronice",
+            "categories": [
+              {
+                "code": "2611",
+                "name": "Fabricarea subansamblurilor electronice (module)",
+                "categories": []
+              },
+              {
+                "code": "2612",
+                "name": "Fabricarea altor componente electronice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "262",
+            "name": "Fabricarea calculatoarelor si a echipamentelor periferice",
+            "categories": [
+              {
+                "code": "2620",
+                "name": "Fabricarea calculatoarelor si a echipamentelor periferice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "263",
+            "name": "Fabricarea echipamentelor de comunica\u021bii",
+            "categories": [
+              {
+                "code": "2630",
+                "name": "Fabricarea echipamentelor de comunica\u021bii",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "264",
+            "name": "Fabricarea produselor electronice de larg consum",
+            "categories": [
+              {
+                "code": "2640",
+                "name": "Fabricarea produselor electronice de larg consum",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "265",
+            "name": "Fabricarea de echipamente de masura, verificare, control si naviga\u021bie; produc\u021bia de ceasuri",
+            "categories": [
+              {
+                "code": "2651",
+                "name": "Fabricarea de instrumente si dispozitive pentru masura, verificare, control, naviga\u021bie",
+                "categories": []
+              },
+              {
+                "code": "2652",
+                "name": "Produc\u021bia de ceasuri",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "266",
+            "name": "Fabricarea de echipamente pentru radiologie, electrodiagnostic si electroterapie",
+            "categories": [
+              {
+                "code": "2660",
+                "name": "Fabricarea de echipamente pentru radiologie, electrodiagnostic si electroterapie",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "267",
+            "name": "Fabricarea de instrumente optice si echipamente fotografice",
+            "categories": [
+              {
+                "code": "2670",
+                "name": "Fabricarea de instrumente optice si echipamente fotografice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "268",
+            "name": "Fabricarea supor\u021bilor magnetici si optici destina\u021bi inregistrarilor",
+            "categories": [
+              {
+                "code": "2680",
+                "name": "Fabricarea supor\u021bilor magnetici si optici destina\u021bi inregistrarilor",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "27",
+        "name": "Fabricarea echipamentelor electrice",
+        "categories": [
+          {
+            "code": "271",
+            "name": "Fabricarea motoarelor electrice, generatoarelor si transformatoarelor electrice si a aparatelor de distributie si control a electricitatii",
+            "categories": [
+              {
+                "code": "2711",
+                "name": "Fabricarea motoarelor, generatoarelor si transformatoarelor electrice",
+                "categories": []
+              },
+              {
+                "code": "2712",
+                "name": "Fabricarea aparatelor de distributie si control a electricitatii",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "272",
+            "name": "Fabricarea de acumulatori si baterii",
+            "categories": [
+              {
+                "code": "2720",
+                "name": "Fabricarea de acumulatori si baterii",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "273",
+            "name": "Fabricarea de fire si cabluri; fabricarea dispozitivelor de conexiune pentru acestea",
+            "categories": [
+              {
+                "code": "2731",
+                "name": "Fabricarea de cabluri cu fibra optica",
+                "categories": []
+              },
+              {
+                "code": "2732",
+                "name": "Fabricarea altor fire si cabluri electrice si electronice",
+                "categories": []
+              },
+              {
+                "code": "2733",
+                "name": "Fabricarea dispozitivelor de conexiune pentru fire si cabluri electrice si electronice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "274",
+            "name": "Fabricarea de echipamente electrice de iluminat",
+            "categories": [
+              {
+                "code": "2740",
+                "name": "Fabricarea de echipamente electrice de iluminat",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "275",
+            "name": "Fabricarea de echipamente casnice",
+            "categories": [
+              {
+                "code": "2751",
+                "name": "Fabricarea de aparate electrocasnice",
+                "categories": []
+              },
+              {
+                "code": "2752",
+                "name": "Fabricarea de echipamente casnice neelectrice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "279",
+            "name": "Fabricarea altor echipamente electrice",
+            "categories": [
+              {
+                "code": "2790",
+                "name": "Fabricarea altor echipamente electrice",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "28",
+        "name": "Fabricarea de ma\u0219ini, utilaje \u0219i echipamente n.c.a.",
+        "categories": [
+          {
+            "code": "281",
+            "name": "Fabricarea de masini si utilaje de utilizare generala",
+            "categories": [
+              {
+                "code": "2811",
+                "name": "Fabricarea de motoare si turbine (cu excep\u021bia celor pentru avioane, autovehicule si motociclete)",
+                "categories": []
+              },
+              {
+                "code": "2812",
+                "name": "Fabricarea de motoare hidraulice",
+                "categories": []
+              },
+              {
+                "code": "2813",
+                "name": "Fabricarea de pompe si compresoare",
+                "categories": []
+              },
+              {
+                "code": "2814",
+                "name": "Fabricarea de articole de robinetarie",
+                "categories": []
+              },
+              {
+                "code": "2815",
+                "name": "Fabricarea lagarelor, angrenajelor, cutiilor de viteza si a elementelor mecanice de transmisie",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "282",
+            "name": "Fabricarea altor masini si utilaje de utilizare generala",
+            "categories": [
+              {
+                "code": "2821",
+                "name": "Fabricarea cuptoarelor, furnalelor si arzatoarelor",
+                "categories": []
+              },
+              {
+                "code": "2822",
+                "name": "Fabricarea echipamentelor de ridicat si manipulat",
+                "categories": []
+              },
+              {
+                "code": "2823",
+                "name": "Fabricarea ma\u0219inilor si echipamentelor de birou (exclusiv fabricarea calculatoarelor si a echipamentelor periferice)",
+                "categories": []
+              },
+              {
+                "code": "2824",
+                "name": "Fabricarea ma\u0219inilor-unelte portabile actionate electric",
+                "categories": []
+              },
+              {
+                "code": "2825",
+                "name": "Fabricarea echipamentelor de ventilatie si frigorifice, exclusiv a echipamentelor de uz casnic",
+                "categories": []
+              },
+              {
+                "code": "2829",
+                "name": "Fabricarea altor masini si utilaje de utilizare generala n.c.a.",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "283",
+            "name": "Fabricarea ma\u0219inilor si utilajelor pentru agricultura si exploatari forestiere",
+            "categories": [
+              {
+                "code": "2830",
+                "name": "Fabricarea ma\u0219inilor si utilajelor pentru agricultura si exploatari forestiere",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "284",
+            "name": "Fabricarea utilajelor pentru prelucrarea metalului si a ma\u0219inilor-unelte",
+            "categories": [
+              {
+                "code": "2841",
+                "name": "Fabricarea utilajelor si a ma\u0219inilor-unelte pentru prelucrarea metalului",
+                "categories": []
+              },
+              {
+                "code": "2849",
+                "name": "Fabricarea altor masini-unelte n.c.a.",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "289",
+            "name": "Fabricarea utilajelor pentru industria textila, a imbracamintei si a pielariei",
+            "categories": [
+              {
+                "code": "2891",
+                "name": "Fabricarea utilajelor pentru metalurgie",
+                "categories": []
+              },
+              {
+                "code": "2892",
+                "name": "Fabricarea utilajelor pentru extrac\u021bie si construc\u021bii",
+                "categories": []
+              },
+              {
+                "code": "2893",
+                "name": "Fabricarea utilajelor pentru prelucrarea produselor alimentare, b\u0103uturilor si tutunului",
+                "categories": []
+              },
+              {
+                "code": "2894",
+                "name": "Fabricarea utilajelor pentru industria textila, a imbracamintei si a pielariei",
+                "categories": []
+              },
+              {
+                "code": "2895",
+                "name": "Fabricarea utilajelor pentru industria h\u00e2rtiei si cartonului",
+                "categories": []
+              },
+              {
+                "code": "2896",
+                "name": "Fabricarea utilajelor pentru prelucrarea maselor plastice si a cauciucului",
+                "categories": []
+              },
+              {
+                "code": "2899",
+                "name": "Fabricarea altor masini si utilaje specifice n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "29",
+        "name": "Fabricarea autovehiculelor de transport rutier, a remorcilor \u0219i semiremorcilor",
+        "categories": [
+          {
+            "code": "291",
+            "name": "Fabricarea autovehiculelor de transport rutier",
+            "categories": [
+              {
+                "code": "2910",
+                "name": "Fabricarea autovehiculelor de transport rutier",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "292",
+            "name": "Produc\u021bia de caroserii pentru autovehicule; fabricarea de remorci si semiremorci",
+            "categories": [
+              {
+                "code": "2920",
+                "name": "Produc\u021bia de caroserii pentru autovehicule; fabricarea de remorci si semiremorci",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "293",
+            "name": "Produc\u021bia de piese si accesorii pentru autovehicule si pentru motoare de autovehicule",
+            "categories": [
+              {
+                "code": "2931",
+                "name": "Fabricarea de echipamente electrice si electronice pentru autovehicule si pentru motoare de autovehicule",
+                "categories": []
+              },
+              {
+                "code": "2932",
+                "name": "Fabricarea altor piese si accesorii pentru autovehicule si pentru motoare de autovehicule",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "30",
+        "name": "Fabricarea altor mijloace de transport",
+        "categories": [
+          {
+            "code": "301",
+            "name": "Construc\u021bia de nave si b\u0103rci",
+            "categories": [
+              {
+                "code": "3011",
+                "name": "Construc\u021bia de nave si structuri plutitoare",
+                "categories": []
+              },
+              {
+                "code": "3012",
+                "name": "Construc\u021bia de ambarcatiuni sportive si de agrement",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "302",
+            "name": "Fabricarea materialului rulant",
+            "categories": [
+              {
+                "code": "3020",
+                "name": "Fabricarea materialului rulant",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "303",
+            "name": "Fabricarea de aeronave si nave spatiale",
+            "categories": [
+              {
+                "code": "3030",
+                "name": "Fabricarea de aeronave si nave spatiale",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "304",
+            "name": "Fabricarea vehiculelor militare de lupta",
+            "categories": [
+              {
+                "code": "3040",
+                "name": "Fabricarea vehiculelor militare de lupta",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "309",
+            "name": "Fabricarea altor echipamente de transport n.c.a.",
+            "categories": [
+              {
+                "code": "3091",
+                "name": "Fabricarea de motociclete",
+                "categories": []
+              },
+              {
+                "code": "3092",
+                "name": "Fabricarea de biciclete si de vehicule pentru invalizi",
+                "categories": []
+              },
+              {
+                "code": "3099",
+                "name": "Fabricarea altor mijloace de transport n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "31",
+        "name": "Fabricarea de mobil\u0103",
+        "categories": [
+          {
+            "code": "310",
+            "name": "Fabricarea de mobila",
+            "categories": [
+              {
+                "code": "3101",
+                "name": "Fabricarea de mobila pentru birouri si magazine",
+                "categories": []
+              },
+              {
+                "code": "3102",
+                "name": "Fabricarea de mobila pentru bucatarii",
+                "categories": []
+              },
+              {
+                "code": "3103",
+                "name": "Fabricarea de saltele si somiere",
+                "categories": []
+              },
+              {
+                "code": "3109",
+                "name": "Fabricarea de mobila n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "32",
+        "name": "Alte activit\u0103\u021bi industriale n.c.a",
+        "categories": [
+          {
+            "code": "321",
+            "name": "Fabricarea bijuteriilor, imitatiilor de bijuterii si articolelor similare",
+            "categories": [
+              {
+                "code": "3211",
+                "name": "Baterea monedelor",
+                "categories": []
+              },
+              {
+                "code": "3212",
+                "name": "Fabricarea bijuteriilor si articolelor similare din metale si pietre pretioase",
+                "categories": []
+              },
+              {
+                "code": "3213",
+                "name": "Fabricarea imitatiilor de bijuterii si articole similare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "322",
+            "name": "Fabricarea instrumentelor muzicale",
+            "categories": [
+              {
+                "code": "3220",
+                "name": "Fabricarea instrumentelor muzicale",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "323",
+            "name": "Fabricarea articolelor pentru sport",
+            "categories": [
+              {
+                "code": "3230",
+                "name": "Fabricarea articolelor pentru sport",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "324",
+            "name": "Fabricarea jocurilor si jucariilor",
+            "categories": [
+              {
+                "code": "3240",
+                "name": "Fabricarea jocurilor si jucariilor",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "325",
+            "name": "Fabricarea de dispozitive, aparate si instrumente medicale si stomatologice",
+            "categories": [
+              {
+                "code": "3250",
+                "name": "Fabricarea de dispozitive, aparate si instrumente medicale si stomatologice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "329",
+            "name": "Alte activit\u0103\u021bi industriale",
+            "categories": [
+              {
+                "code": "3291",
+                "name": "Fabricarea maturilor si periilor",
+                "categories": []
+              },
+              {
+                "code": "3299",
+                "name": "Fabricarea altor produse manufacturiere n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "33",
+        "name": "Repararea, \u00eentre\u021binerea \u0219i instalarea ma\u0219inilor \u0219i echipamentelor",
+        "categories": [
+          {
+            "code": "331",
+            "name": "Repararea articolelor fabricate din metal, repararea ma\u0219inilor si echipamentelor",
+            "categories": [
+              {
+                "code": "3311",
+                "name": "Repararea articolelor fabricate din metal",
+                "categories": []
+              },
+              {
+                "code": "3312",
+                "name": "Repararea ma\u0219inilor",
+                "categories": []
+              },
+              {
+                "code": "3313",
+                "name": "Repararea echipamentelor electronice si optice",
+                "categories": []
+              },
+              {
+                "code": "3314",
+                "name": "Repararea echipamentelor electrice",
+                "categories": []
+              },
+              {
+                "code": "3315",
+                "name": "Repararea si intretinerea navelor si b\u0103rcilor",
+                "categories": []
+              },
+              {
+                "code": "3316",
+                "name": "Repararea si intretinerea aeronavelor si navelor spatiale",
+                "categories": []
+              },
+              {
+                "code": "3317",
+                "name": "Repararea si intretinerea altor echipamente de transport n.c.a.",
+                "categories": []
+              },
+              {
+                "code": "3319",
+                "name": "Repararea altor echipamente",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "332",
+            "name": "Instalarea ma\u0219inilor si echipamentelor industriale",
+            "categories": [
+              {
+                "code": "3320",
+                "name": "Instalarea ma\u0219inilor si echipamentelor industriale",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "D",
+    "name": "Produc\u021bia \u0219i furnizarea de energie electric\u0103 \u0219i termic\u0103, gaze, ap\u0103 cald\u0103 \u0219i aer condi\u021bionat",
+    "categories": [
+      {
+        "code": "35",
+        "name": "Produc\u021bia \u0219i furnizarea de energie electric\u0103 \u0219i termic\u0103, gaze, ap\u0103 cald\u0103 \u0219i aer condi\u021bionat",
+        "categories": [
+          {
+            "code": "351",
+            "name": "Produc\u021bia, transportul si distributia energiei electrice",
+            "categories": [
+              {
+                "code": "3511",
+                "name": "Produc\u021bia de energie electrica",
+                "categories": []
+              },
+              {
+                "code": "3512",
+                "name": "Transportul energiei electrice",
+                "categories": []
+              },
+              {
+                "code": "3513",
+                "name": "Distributia energiei electrice",
+                "categories": []
+              },
+              {
+                "code": "3514",
+                "name": "Comercializarea energiei electrice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "352",
+            "name": "Produc\u021bia gazelor; distributia combustibililor gazosi prin conducte",
+            "categories": [
+              {
+                "code": "3521",
+                "name": "Produc\u021bia gazelor",
+                "categories": []
+              },
+              {
+                "code": "3522",
+                "name": "Distributia combustibililor gazosi, prin conducte",
+                "categories": []
+              },
+              {
+                "code": "3523",
+                "name": "Comercializarea combustibililor gazosi, prin conducte",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "353",
+            "name": "Furnizarea de abur si aer conditionat",
+            "categories": [
+              {
+                "code": "3530",
+                "name": "Furnizarea de abur si aer conditionat",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "E",
+    "name": "Distribu\u021bia apei; salubritate, gestionarea de\u0219eurilor, activit\u0103\u021bi de decontaminare",
+    "categories": [
+      {
+        "code": "36",
+        "name": "Captarea, tratarea \u0219i distribu\u021bia apei",
+        "categories": [
+          {
+            "code": "360",
+            "name": "Captarea, tratarea si distributia apei",
+            "categories": [
+              {
+                "code": "3600",
+                "name": "Captarea, tratarea si distributia apei",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "37",
+        "name": "Colectarea \u0219i epurarea apelor uzate",
+        "categories": [
+          {
+            "code": "370",
+            "name": "Colectarea si epurarea apelor uzate",
+            "categories": [
+              {
+                "code": "3700",
+                "name": "Colectarea si epurarea apelor uzate",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "38",
+        "name": "Colectarea, tratarea \u0219i eliminarea de\u0219eurilor; activit\u0103\u021bi de recuperare a materialelor reciclabile",
+        "categories": [
+          {
+            "code": "381",
+            "name": "Colectarea deseurilor",
+            "categories": [
+              {
+                "code": "3811",
+                "name": "Colectarea deseurilor nepericuloase",
+                "categories": []
+              },
+              {
+                "code": "3812",
+                "name": "Colectarea deseurilor periculoase",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "382",
+            "name": "Tratarea si eliminarea deseurilor",
+            "categories": [
+              {
+                "code": "3821",
+                "name": "Tratarea si eliminarea deseurilor nepericuloase",
+                "categories": []
+              },
+              {
+                "code": "3822",
+                "name": "Tratarea si eliminarea deseurilor periculoase",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "383",
+            "name": "Recuperare materialelor",
+            "categories": [
+              {
+                "code": "3831",
+                "name": "Demontarea (dezasamblarea) ma\u0219inilor si echipamentelor scoase din uz pentru recuperarea materialelor",
+                "categories": []
+              },
+              {
+                "code": "3832",
+                "name": "Recuperarea materialelor reciclabile sortate",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "39",
+        "name": "Activit\u0103\u021bi \u0219i servicii de decontaminare",
+        "categories": [
+          {
+            "code": "390",
+            "name": "Activit\u0103\u021bi si servicii de decontaminare",
+            "categories": [
+              {
+                "code": "3900",
+                "name": "Activit\u0103\u021bi si servicii de decontaminare",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "F",
+    "name": "Construc\u021bii",
+    "categories": [
+      {
+        "code": "41",
+        "name": "Construc\u021bii de cl\u0103diri",
+        "categories": [
+          {
+            "code": "411",
+            "name": "Dezvoltare (promovare) imobiliara",
+            "categories": [
+              {
+                "code": "4110",
+                "name": "Dezvoltare (promovare) imobiliara",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "412",
+            "name": "Lucrari de construc\u021bii a cladirilor rezidentiale si nerezidentiale",
+            "categories": [
+              {
+                "code": "4120",
+                "name": "Lucrari de construc\u021bii a cladirilor rezidentiale si nerezidentiale",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "42",
+        "name": "Lucr\u0103ri de geniu civil",
+        "categories": [
+          {
+            "code": "421",
+            "name": "Lucrari de construc\u021bii a drumurilor si a cailor ferate",
+            "categories": [
+              {
+                "code": "4211",
+                "name": "Lucrari de construc\u021bii a drumurilor si autostrazilor",
+                "categories": []
+              },
+              {
+                "code": "4212",
+                "name": "Lucrari de construc\u021bii a cailor ferate de suprafata si subterane",
+                "categories": []
+              },
+              {
+                "code": "4213",
+                "name": "Construc\u021bia de poduri si tuneluri",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "422",
+            "name": "Lucrari de construc\u021bii a proiectelor utilitare",
+            "categories": [
+              {
+                "code": "4221",
+                "name": "Lucrari de construc\u021bii a proiectelor utilitare pentru fluide",
+                "categories": []
+              },
+              {
+                "code": "4222",
+                "name": "Lucrari de construc\u021bii a proiectelor utilitare pentru electricitate si telecomunica\u021bii",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "429",
+            "name": "Lucrari de construc\u021bii a altor proiecte ingineresti",
+            "categories": [
+              {
+                "code": "4291",
+                "name": "Construc\u021bii hidrotehnice",
+                "categories": []
+              },
+              {
+                "code": "4299",
+                "name": "Lucrari de construc\u021bii a altor proiecte ingineresti n.c.a",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "43",
+        "name": "Lucr\u0103ri speciale de construc\u021bii",
+        "categories": [
+          {
+            "code": "431",
+            "name": "Lucrari de demolare si de pregatire a terenului",
+            "categories": [
+              {
+                "code": "4311",
+                "name": "Lucrari de demolare a construc\u021biilor",
+                "categories": []
+              },
+              {
+                "code": "4312",
+                "name": "Lucrari de pregatire a terenului",
+                "categories": []
+              },
+              {
+                "code": "4313",
+                "name": "Lucrari de foraj si sondaj pentru construc\u021bii",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "432",
+            "name": "Lucrari de instalatii electrice si tehnico-sanitare si alte lucrari de instalatii pentru construc\u021bii",
+            "categories": [
+              {
+                "code": "4321",
+                "name": "Lucrari de instalatii electrice",
+                "categories": []
+              },
+              {
+                "code": "4322",
+                "name": "Lucrari de instalatii sanitare, de incalzire si de aer conditionat",
+                "categories": []
+              },
+              {
+                "code": "4329",
+                "name": "Alte lucrari de instalatii pentru construc\u021bii",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "433",
+            "name": "Lucrari de finisare",
+            "categories": [
+              {
+                "code": "4331",
+                "name": "Lucrari de ipsoserie",
+                "categories": []
+              },
+              {
+                "code": "4332",
+                "name": "Lucrari de tamplarie si dulgherie",
+                "categories": []
+              },
+              {
+                "code": "4333",
+                "name": "Lucrari de pardosire si placare a peretilor",
+                "categories": []
+              },
+              {
+                "code": "4334",
+                "name": "Lucrari de vopsitorie, zugraveli si montari de geamuri",
+                "categories": []
+              },
+              {
+                "code": "4339",
+                "name": "Alte lucrari de finisare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "439",
+            "name": "Alte lucrari speciale de construc\u021bii",
+            "categories": [
+              {
+                "code": "4391",
+                "name": "Lucrari de invelitori, sarpante si terase la construc\u021bii",
+                "categories": []
+              },
+              {
+                "code": "4399",
+                "name": "Alte lucrari speciale de construc\u021bii n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "G",
+    "name": "Comer\u021b cu ridicata \u0219i cu am\u0103nuntul; repararea autovehiculelor \u0219i motocicletelor",
+    "categories": [
+      {
+        "code": "45",
+        "name": "Comer\u021b cu ridicata \u0219i cu am\u0103nuntul, \u00eentre\u021binerea \u0219i repararea autovehiculelor \u0219i a motocicletelor",
+        "categories": [
+          {
+            "code": "451",
+            "name": "Comer\u021b cu autovehicule",
+            "categories": [
+              {
+                "code": "4511",
+                "name": "Comer\u021b cu autoturisme si autovehicule usoare (sub 3,5 tone)",
+                "categories": []
+              },
+              {
+                "code": "4519",
+                "name": "Comer\u021b cu alte autovehicule",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "452",
+            "name": "Intretinerea si repararea autovehiculelor",
+            "categories": [
+              {
+                "code": "4520",
+                "name": "Intretinerea si repararea autovehiculelor",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "453",
+            "name": "Comer\u021b cu piese si accesorii pentru autovehicule",
+            "categories": [
+              {
+                "code": "4531",
+                "name": "Comer\u021b cu ridicata de piese si accesorii pentru autovehicule",
+                "categories": []
+              },
+              {
+                "code": "4532",
+                "name": "Comer\u021b cu am\u0103nuntul de piese si accesorii pentru autovehicule",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "454",
+            "name": "Comer\u021b cu motociclete, piese si accesorii aferente; intretinerea si repararea motocicletelor",
+            "categories": [
+              {
+                "code": "4540",
+                "name": "Comer\u021b cu motociclete, piese si accesorii aferente; intretinerea si repararea motocicletelor",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "46",
+        "name": "Comer\u021b cu ridicata cu excep\u021bia comer\u021bului cu autovehicule \u0219i motociclete",
+        "categories": [
+          {
+            "code": "461",
+            "name": "Activita\u021bi de intermediere \u00een comer\u021bul cu ridicata",
+            "categories": [
+              {
+                "code": "4611",
+                "name": "Intermedieri in comer\u021bul cu materii prime agricole, animale vii, materii prime textile si cu semifabricate",
+                "categories": []
+              },
+              {
+                "code": "4612",
+                "name": "Intermedieri in comer\u021bul cu combustibili, minereuri, metale si produse chimice pentru industrie",
+                "categories": []
+              },
+              {
+                "code": "4613",
+                "name": "Intermedieri in comer\u021bul cu material lemnos si materiale de construc\u021bii",
+                "categories": []
+              },
+              {
+                "code": "4614",
+                "name": "Intermedieri in comer\u021bul cu masini, echipamente industriale, nave si avioane",
+                "categories": []
+              },
+              {
+                "code": "4615",
+                "name": "Intermedieri in comer\u021bul cu mobila, articole de menaj si de fierarie",
+                "categories": []
+              },
+              {
+                "code": "4616",
+                "name": "Intermedieri in comer\u021bul cu textile, confectii din blana, incaltaminte si articole din piele",
+                "categories": []
+              },
+              {
+                "code": "4617",
+                "name": "Intermedieri in comer\u021bul cu produse alimentare, bauturi si tutun",
+                "categories": []
+              },
+              {
+                "code": "4618",
+                "name": "Intermedieri in comer\u021bul specializat in v\u00e2nzarea produselor cu caracter specific, n.c.a.",
+                "categories": []
+              },
+              {
+                "code": "4619",
+                "name": "Intermedieri in comer\u021bul cu produse diverse",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "462",
+            "name": "Comer\u021b cu ridicata al produselor agricole brute si al animalelor vii",
+            "categories": [
+              {
+                "code": "4621",
+                "name": "Comer\u021b cu ridicata al cerealelor, semin\u021belor, furajelor si tutunului neprelucrat",
+                "categories": []
+              },
+              {
+                "code": "4622",
+                "name": "Comer\u021b cu ridicata al florilor si al plantelor",
+                "categories": []
+              },
+              {
+                "code": "4623",
+                "name": "Comer\u021b cu ridicata al animalelor vii",
+                "categories": []
+              },
+              {
+                "code": "4624",
+                "name": "Comer\u021b cu ridicata al blanurilor, pieilor brute si al pieilor prelucrate",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "463",
+            "name": "Comer\u021b cu ridicata al produselor alimentare, al b\u0103uturilor si al tutunului",
+            "categories": [
+              {
+                "code": "4631",
+                "name": "Comer\u021b cu ridicata al fructelor si legumelor",
+                "categories": []
+              },
+              {
+                "code": "4632",
+                "name": "Comer\u021b cu ridicata al carnii si produselor din carne",
+                "categories": []
+              },
+              {
+                "code": "4633",
+                "name": "Comer\u021b cu ridicata al produselor lactate, oualor, uleiurilor si grasimilor comestibile",
+                "categories": []
+              },
+              {
+                "code": "4634",
+                "name": "Comer\u021b cu ridicata al b\u0103uturilor",
+                "categories": []
+              },
+              {
+                "code": "4635",
+                "name": "Comer\u021b cu ridicata al produselor din tutun",
+                "categories": []
+              },
+              {
+                "code": "4636",
+                "name": "Comer\u021b cu ridicata al zaharului, ciocolatei si produselor zaharoase",
+                "categories": []
+              },
+              {
+                "code": "4637",
+                "name": "Comer\u021b cu ridicata cu cafea, ceai, cacao si condimente",
+                "categories": []
+              },
+              {
+                "code": "4638",
+                "name": "Comer\u021b cu ridicata specializat al altor alimente, inclusiv peste, crustacee si moluste",
+                "categories": []
+              },
+              {
+                "code": "4639",
+                "name": "Comer\u021b cu ridicata nespecializat de produse alimentare, bauturi si tutun",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "464",
+            "name": "Comer\u021b cu ridicata al bunurilor de consum",
+            "categories": [
+              {
+                "code": "4641",
+                "name": "Comer\u021b cu ridicata al produselor textile",
+                "categories": []
+              },
+              {
+                "code": "4642",
+                "name": "Comer\u021b cu ridicata al imbracamintei si incaltamintei",
+                "categories": []
+              },
+              {
+                "code": "4643",
+                "name": "Comer\u021b cu ridicata al aparatelor electrice de uz gospodaresc, al aparatelor de radio si televizoarelor",
+                "categories": []
+              },
+              {
+                "code": "4644",
+                "name": "Comer\u021b cu ridicata al produselor din ceramica, sticlarie, si produse de intretinere",
+                "categories": []
+              },
+              {
+                "code": "4645",
+                "name": "Comer\u021b cu ridicata al produselor cosmetice si de parfumerie",
+                "categories": []
+              },
+              {
+                "code": "4646",
+                "name": "Comer\u021b cu ridicata al produselor farmaceutice",
+                "categories": []
+              },
+              {
+                "code": "4647",
+                "name": "Comer\u021b cu ridicata al mobilei, covoarelor si a articolelor de iluminat",
+                "categories": []
+              },
+              {
+                "code": "4648",
+                "name": "Comer\u021b cu ridicata al ceasurilor si bijuteriilor",
+                "categories": []
+              },
+              {
+                "code": "4649",
+                "name": "Comer\u021b cu ridicata al altor bunuri de uz gospodaresc",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "465",
+            "name": "Comer\u021b cu ridicata al echipamentului informatic si de telecomunica\u021bii",
+            "categories": [
+              {
+                "code": "4651",
+                "name": "Comer\u021b cu ridicata al calculatoarelor, echipamentelor periferice si software- ului",
+                "categories": []
+              },
+              {
+                "code": "4652",
+                "name": "Comer\u021b cu ridicata de componente si echipamente electronice si de telecomunica\u021bii",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "466",
+            "name": "Comer\u021b cu ridicata al altor masini, echipamente si furnituri",
+            "categories": [
+              {
+                "code": "4661",
+                "name": "Comer\u021b cu ridicata al ma\u0219inilor agricole, echipamentelor si furniturilor",
+                "categories": []
+              },
+              {
+                "code": "4662",
+                "name": "Comer\u021b cu ridicata al ma\u0219inilor- unelte",
+                "categories": []
+              },
+              {
+                "code": "4663",
+                "name": "Comer\u021b cu ridicata al ma\u0219inilor pentru industria miniera si construc\u021bii",
+                "categories": []
+              },
+              {
+                "code": "4664",
+                "name": "Comer\u021b cu ridicata al ma\u0219inilor pentru industria textila si al ma\u0219inilor de cusut si de tricotat",
+                "categories": []
+              },
+              {
+                "code": "4665",
+                "name": "Comer\u021b cu ridicata al mobilei de birou",
+                "categories": []
+              },
+              {
+                "code": "4666",
+                "name": "Comer\u021b cu ridicata al altor masini si echipamente de birou",
+                "categories": []
+              },
+              {
+                "code": "4669",
+                "name": "Comer\u021b cu ridicata al altor masini si echipamente",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "467",
+            "name": "Comer\u021b cu ridicata specializat al altor produse",
+            "categories": [
+              {
+                "code": "4671",
+                "name": "Comer\u021b cu ridicata al combustibililor solizi, lichizi si gazosi si al produselor derivate",
+                "categories": []
+              },
+              {
+                "code": "4672",
+                "name": "Comer\u021b cu ridicata al metalelor si minereurilor metalice",
+                "categories": []
+              },
+              {
+                "code": "4673",
+                "name": "Comer\u021b cu ridicata al materialului lemnos si al materialelor de construc\u021bii si echipamentelor sanitare",
+                "categories": []
+              },
+              {
+                "code": "4674",
+                "name": "Comer\u021b cu ridicata al echipamentelor si furniturilor de fierarie pentru instalatii sanitare si de incalzire",
+                "categories": []
+              },
+              {
+                "code": "4675",
+                "name": "Comer\u021b cu ridicata al produselor chimice",
+                "categories": []
+              },
+              {
+                "code": "4676",
+                "name": "Comer\u021b cu ridicata al altor produse intermediare",
+                "categories": []
+              },
+              {
+                "code": "4677",
+                "name": "Comer\u021b cu ridicata al deseurilor si resturilor",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "469",
+            "name": "Comer\u021b cu ridicata nespecializat",
+            "categories": [
+              {
+                "code": "4690",
+                "name": "Comer\u021b cu ridicata nespecializat",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "47",
+        "name": "Comer\u021b cu am\u0103nuntul, cu excep\u021bia autovehiculelor \u0219i motocicletelor",
+        "categories": [
+          {
+            "code": "471",
+            "name": "Comer\u021b cu am\u0103nuntul in magazine nespecializate",
+            "categories": [
+              {
+                "code": "4711",
+                "name": "Comer\u021b cu am\u0103nuntul in magazine nespecializate, cu v\u00e2nzare predominanta de produse alimentare, bauturi si tutun",
+                "categories": []
+              },
+              {
+                "code": "4719",
+                "name": "Comer\u021b cu am\u0103nuntul in magazine nespecializate, cu v\u00e2nzare predominanta de produse nealimentare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "472",
+            "name": "Comer\u021b cu am\u0103nuntul al produselor alimentare, b\u0103uturilor si al produselor din tutun, in magazine specializate",
+            "categories": [
+              {
+                "code": "4721",
+                "name": "Comer\u021b cu am\u0103nuntul al fructelor si legumelor proaspete, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4722",
+                "name": "Comer\u021b cu am\u0103nuntul al carnii si al produselor din carne, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4723",
+                "name": "Comer\u021b cu am\u0103nuntul al pestelui, crustaceelor si molustelor, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4724",
+                "name": "Comer\u021b cu am\u0103nuntul al painii, produselor de patiserie si produselor zaharoase, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4725",
+                "name": "Comer\u021b cu am\u0103nuntul al b\u0103uturilor, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4726",
+                "name": "Comer\u021b cu am\u0103nuntul al produselor din tutun, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4729",
+                "name": "Comer\u021b cu am\u0103nuntul al altor produse alimentare, in magazine specializate",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "473",
+            "name": "Comer\u021b cu am\u0103nuntul al carburantilor pentru autovehicule in magazine specializate",
+            "categories": [
+              {
+                "code": "4730",
+                "name": "Comer\u021b cu am\u0103nuntul al carburantilor pentru autovehicule in magazine specializate",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "474",
+            "name": "Comer\u021b cu am\u0103nuntul al echipamentului informatic si de telecomunica\u021bii in magazine specializate",
+            "categories": [
+              {
+                "code": "4741",
+                "name": "Comer\u021b cu am\u0103nuntul al calculatoarelor, unitatilor periferice si software-ului in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4742",
+                "name": "Comer\u021b cu am\u0103nuntul al echipamentului pentru telecomunica\u021bii in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4743",
+                "name": "Comer\u021b cu am\u0103nuntul al echipamentului audio/video in magazine specializate",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "475",
+            "name": "Comer\u021b cu am\u0103nuntul al altor produse casnice, in magazine specializate",
+            "categories": [
+              {
+                "code": "4751",
+                "name": "Comer\u021b cu am\u0103nuntul al textilelor, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4752",
+                "name": "Comer\u021b cu am\u0103nuntul al articolelor de fierarie, al articolelor din sticla si a celor pentru vopsit, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4753",
+                "name": "Comer\u021b cu am\u0103nuntul al covoarelor, carpetelor, tapetelor si a altor acoperitoare de podea, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4754",
+                "name": "Comer\u021b cu am\u0103nuntul al articolelor si aparatelor electrocasnice, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4759",
+                "name": "Comer\u021b cu am\u0103nuntul al mobilei, al articolelor de iluminat si al articolelor de uz casnic n.c.a., in magazine specializate",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "476",
+            "name": "Comer\u021b cu am\u0103nuntul de bunuri culturale si recreative, in magazine specializate",
+            "categories": [
+              {
+                "code": "4761",
+                "name": "Comer\u021b cu am\u0103nuntul al cartilor, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4762",
+                "name": "Comer\u021b cu am\u0103nuntul al ziarelor si articolelor de papetarie, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4763",
+                "name": "Comer\u021b cu am\u0103nuntul al discurilor si benzilor magnetice cu sau f\u0103r\u0103 inregistrari audio/video , in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4764",
+                "name": "Comer\u021b cu am\u0103nuntul al echipamentelor sportive, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4765",
+                "name": "Comer\u021b cu am\u0103nuntul al jocurilor si jucariilor, in magazine specializate",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "477",
+            "name": "Comer\u021b cu am\u0103nuntul al altor bunuri, \u00een magazine specializate",
+            "categories": [
+              {
+                "code": "4771",
+                "name": "Comer\u021b cu am\u0103nuntul al imbracamintei, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4772",
+                "name": "Comer\u021b cu am\u0103nuntul al incaltamintei si articolelor din piele, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4773",
+                "name": "Comer\u021b cu am\u0103nuntul al produselor farmaceutice, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4774",
+                "name": "Comer\u021b cu am\u0103nuntul al articolelor medicale si ortopedice, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4775",
+                "name": "Comer\u021b cu am\u0103nuntul al produselor cosmetice si de parfumerie, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4776",
+                "name": "Comer\u021b cu am\u0103nuntul al florilor, plantelor si semin\u021belor, comer\u021b cu am\u0103nuntul al animalelor de companie si a hranei pentru acestea, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4777",
+                "name": "Comer\u021b cu am\u0103nuntul al ceasurilor si bijuteriilor, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4778",
+                "name": "Comer\u021b cu am\u0103nuntul al altor bunuri noi, in magazine specializate",
+                "categories": []
+              },
+              {
+                "code": "4779",
+                "name": "Comer\u021b cu am\u0103nuntul al bunurilor de ocazie vandute prin magazine",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "478",
+            "name": "Comer\u021b cu am\u0103nuntul efectuat prin standuri, chio\u0219curi si piete",
+            "categories": [
+              {
+                "code": "4781",
+                "name": "Comer\u021b cu am\u0103nuntul al produselor alimentare, b\u0103uturilor si produselor din tutun efectuat prin standuri, chio\u0219curi si piete",
+                "categories": []
+              },
+              {
+                "code": "4782",
+                "name": "Comer\u021b cu am\u0103nuntul al textilelor, imbracamintei si incaltamintei efectuat prin standuri, chio\u0219curi si piete",
+                "categories": []
+              },
+              {
+                "code": "4789",
+                "name": "Comer\u021b cu am\u0103nuntul prin standuri, chio\u0219curi si piete al altor produse",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "479",
+            "name": "Comer\u021b cu am\u0103nuntul care nu se efectueaza prin magazine, standuri, chio\u0219curi si piete",
+            "categories": [
+              {
+                "code": "4791",
+                "name": "Comer\u021b cu am\u0103nuntul prin intermediul caselor de comenzi sau prin Internet",
+                "categories": []
+              },
+              {
+                "code": "4799",
+                "name": "Comer\u021b cu am\u0103nuntul efectuat in afara magazinelor, standurilor, chio\u0219curilor si pie\u021belor",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "H",
+    "name": "Transport \u0219i depozitare",
+    "categories": [
+      {
+        "code": "49",
+        "name": "Transporturi terestre \u0219i transporturi prin conducte",
+        "categories": [
+          {
+            "code": "491",
+            "name": "Transporturi interurbane de c\u0103l\u0103tori pe calea ferata",
+            "categories": [
+              {
+                "code": "4910",
+                "name": "Transporturi interurbane de c\u0103l\u0103tori pe calea ferata",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "492",
+            "name": "Transporturi de marfa pe calea ferata",
+            "categories": [
+              {
+                "code": "4920",
+                "name": "Transporturi de marfa pe calea ferata",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "493",
+            "name": "Alte transporturi terestre de c\u0103l\u0103tori",
+            "categories": [
+              {
+                "code": "4931",
+                "name": "Transporturi urbane, suburbane si metropolitane de c\u0103l\u0103tori",
+                "categories": []
+              },
+              {
+                "code": "4932",
+                "name": "Transporturi cu taxiuri",
+                "categories": []
+              },
+              {
+                "code": "4939",
+                "name": "Alte transporturi terestre de c\u0103l\u0103tori n.c.a",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "494",
+            "name": "Transporturi rutiere de marfuri si servicii de mutare",
+            "categories": [
+              {
+                "code": "4941",
+                "name": "Transporturi rutiere de marfuri",
+                "categories": []
+              },
+              {
+                "code": "4942",
+                "name": "Servicii de mutare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "495",
+            "name": "Transporturi prin conducte",
+            "categories": [
+              {
+                "code": "4950",
+                "name": "Transporturi prin conducte",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "50",
+        "name": "Transporturi pe ap\u0103",
+        "categories": [
+          {
+            "code": "501",
+            "name": "Transporturi maritime si costiere de pasageri",
+            "categories": [
+              {
+                "code": "5010",
+                "name": "Transporturi maritime si costiere de pasageri",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "502",
+            "name": "Transporturi maritime si costiere de marfa",
+            "categories": [
+              {
+                "code": "5020",
+                "name": "Transporturi maritime si costiere de marfa",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "503",
+            "name": "Transporturi de pasageri pe cai navigabile interioare",
+            "categories": [
+              {
+                "code": "5030",
+                "name": "Transporturi de pasageri pe cai navigabile interioare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "504",
+            "name": "Transportul de marfa pe cai navigabile interioare",
+            "categories": [
+              {
+                "code": "5040",
+                "name": "Transportul de marfa pe cai navigabile interioare",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "51",
+        "name": "Transporturi aeriene",
+        "categories": [
+          {
+            "code": "511",
+            "name": "Transporturi aeriene de pasageri",
+            "categories": [
+              {
+                "code": "5110",
+                "name": "Transporturi aeriene de pasageri",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "512",
+            "name": "Transporturi aeriene de marfa si transporturi spatiale",
+            "categories": [
+              {
+                "code": "5121",
+                "name": "Transporturi aeriene de marfa",
+                "categories": []
+              },
+              {
+                "code": "5122",
+                "name": "Transporturi spatiale",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "52",
+        "name": "Depozitare \u0219i activit\u0103\u021bi auxiliare pentru transporturi",
+        "categories": [
+          {
+            "code": "521",
+            "name": "Depozit\u0103ri",
+            "categories": [
+              {
+                "code": "5210",
+                "name": "Depozit\u0103ri",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "522",
+            "name": "Activit\u0103\u021bi anexe pentru transporturi",
+            "categories": [
+              {
+                "code": "5221",
+                "name": "Activit\u0103\u021bi de servicii anexe pentru transporturi terestre",
+                "categories": []
+              },
+              {
+                "code": "5222",
+                "name": "Activit\u0103\u021bi de servicii anexe transportului pe apa",
+                "categories": []
+              },
+              {
+                "code": "5223",
+                "name": "Activit\u0103\u021bi de servicii anexe transporturilor aeriene",
+                "categories": []
+              },
+              {
+                "code": "5224",
+                "name": "Manipulari",
+                "categories": []
+              },
+              {
+                "code": "5229",
+                "name": "Alte activit\u0103\u021bi anexe transporturilor",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "53",
+        "name": "Activit\u0103\u021bi de po\u0219t\u0103 \u0219i de curier",
+        "categories": [
+          {
+            "code": "531",
+            "name": "Activit\u0103\u021bi po\u0219tale desf\u0103\u0219urate sub obligativitatea serviciului universal",
+            "categories": [
+              {
+                "code": "5310",
+                "name": "Activit\u0103\u021bi po\u0219tale desf\u0103\u0219urate sub obligativitatea serviciului universal",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "532",
+            "name": "Alte activit\u0103\u021bi po\u0219tale si de curier",
+            "categories": [
+              {
+                "code": "5320",
+                "name": "Alte activit\u0103\u021bi po\u0219tale si de curier",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "I",
+    "name": "Hoteluri \u0219i restaurante",
+    "categories": [
+      {
+        "code": "55",
+        "name": "Hoteluri \u0219i alte facilit\u0103\u021bi de cazare",
+        "categories": [
+          {
+            "code": "551",
+            "name": "Hoteluri si alte facilit\u0103\u021bi de cazare similare",
+            "categories": [
+              {
+                "code": "5510",
+                "name": "Hoteluri si alte facilit\u0103\u021bi de cazare similare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "552",
+            "name": "Facilit\u0103\u021bi de cazare pentru vacante si perioade de scurta durata",
+            "categories": [
+              {
+                "code": "5520",
+                "name": "Facilit\u0103\u021bi de cazare pentru vacante si perioade de scurta durata",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "553",
+            "name": "Parcuri pentru rulote, campinguri si tabere",
+            "categories": [
+              {
+                "code": "5530",
+                "name": "Parcuri pentru rulote, campinguri si tabere",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "559",
+            "name": "Alte servicii de cazare",
+            "categories": [
+              {
+                "code": "5590",
+                "name": "Alte servicii de cazare",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "56",
+        "name": "Restaurante \u0219i alte activit\u0103\u021bi de servicii de alimenta\u021bie",
+        "categories": [
+          {
+            "code": "561",
+            "name": "Restaurante",
+            "categories": [
+              {
+                "code": "5610",
+                "name": "Restaurante",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "562",
+            "name": "Activit\u0103\u021bi de alimentatie (catering) pentru evenimente si alte servicii de alimentatie",
+            "categories": [
+              {
+                "code": "5621",
+                "name": "Activit\u0103\u021bi de alimentatie (catering) pentru evenimente",
+                "categories": []
+              },
+              {
+                "code": "5629",
+                "name": "Alte servicii de alimentatie n.c.a.",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "563",
+            "name": "Baruri si alte activit\u0103\u021bi de servire a b\u0103uturilor",
+            "categories": [
+              {
+                "code": "5630",
+                "name": "Baruri si alte activit\u0103\u021bi de servire a b\u0103uturilor",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "J",
+    "name": "Informa\u021bii \u0219i comunica\u021bii",
+    "categories": [
+      {
+        "code": "58",
+        "name": "Activit\u0103\u021bi de editare",
+        "categories": [
+          {
+            "code": "581",
+            "name": "Activit\u0103\u021bi de editare a cartilor, ziarelor, revistelor si alte activit\u0103\u021bi de editare",
+            "categories": [
+              {
+                "code": "5811",
+                "name": "Activit\u0103\u021bi de editare a cartilor",
+                "categories": []
+              },
+              {
+                "code": "5812",
+                "name": "Activit\u0103\u021bi de editare de ghiduri, compendii, liste de adrese si similare",
+                "categories": []
+              },
+              {
+                "code": "5813",
+                "name": "Activit\u0103\u021bi de editare a ziarelor",
+                "categories": []
+              },
+              {
+                "code": "5814",
+                "name": "Activit\u0103\u021bi de editare a revistelor si periodicelor",
+                "categories": []
+              },
+              {
+                "code": "5819",
+                "name": "Alte activit\u0103\u021bi de editare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "582",
+            "name": "Activit\u0103\u021bi de editare a produselor software",
+            "categories": [
+              {
+                "code": "5821",
+                "name": "Activit\u0103\u021bi de editare a jocurilor de calculator",
+                "categories": []
+              },
+              {
+                "code": "5829",
+                "name": "Activit\u0103\u021bi de editare a altor produse software",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "59",
+        "name": "Activit\u0103\u021bi de produc\u021bie cinematografic\u0103, video \u0219i de programe de televiziune; \u00eenregistr\u0103ri audio \u0219i activit\u0103\u021bi de editare muzical\u0103",
+        "categories": [
+          {
+            "code": "591",
+            "name": "Activit\u0103\u021bi de productie cinematografica, video si de programe de televiziune",
+            "categories": [
+              {
+                "code": "5911",
+                "name": "Activit\u0103\u021bi de productie cinematografica, video si de programe de televiziune",
+                "categories": []
+              },
+              {
+                "code": "5912",
+                "name": "Activit\u0103\u021bi de post-productie cinematografica, video si de programe de televiziune",
+                "categories": []
+              },
+              {
+                "code": "5913",
+                "name": "Activit\u0103\u021bi de distributie a filmelor cinematografice, video si a programelor de televiziune",
+                "categories": []
+              },
+              {
+                "code": "5914",
+                "name": "Proiectia de filme cinematografice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "592",
+            "name": "Activit\u0103\u021bi de realizare a inregistrarilor audio si activit\u0103\u021bi de editare muzicala",
+            "categories": [
+              {
+                "code": "5920",
+                "name": "Activit\u0103\u021bi de realizare a inregistrarilor audio si activit\u0103\u021bi de editare muzicala",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "60",
+        "name": "Activit\u0103\u021bi de difuzare \u0219i transmitere de programe",
+        "categories": [
+          {
+            "code": "601",
+            "name": "Activit\u0103\u021bi de difuzare a programelor de radio",
+            "categories": [
+              {
+                "code": "6010",
+                "name": "Activit\u0103\u021bi de difuzare a programelor de radio",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "602",
+            "name": "Activit\u0103\u021bi de difuzare a programelor de televiziune",
+            "categories": [
+              {
+                "code": "6020",
+                "name": "Activit\u0103\u021bi de difuzare a programelor de televiziune",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "61",
+        "name": "Telecomunica\u021bii",
+        "categories": [
+          {
+            "code": "611",
+            "name": "Activit\u0103\u021bi de telecomunica\u021bii prin retele cu cablu",
+            "categories": [
+              {
+                "code": "6110",
+                "name": "Activit\u0103\u021bi de telecomunica\u021bii prin retele cu cablu",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "612",
+            "name": "Activit\u0103\u021bi de telecomunica\u021bii prin retele f\u0103r\u0103 cablu",
+            "categories": [
+              {
+                "code": "6120",
+                "name": "Activit\u0103\u021bi de telecomunica\u021bii prin retele f\u0103r\u0103 cablu (exclusiv prin satelit)",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "613",
+            "name": "Activit\u0103\u021bi de telecomunica\u021bii prin satelit",
+            "categories": [
+              {
+                "code": "6130",
+                "name": "Activit\u0103\u021bi de telecomunica\u021bii prin satelit",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "619",
+            "name": "Alte activit\u0103\u021bi de telecomunica\u021bii",
+            "categories": [
+              {
+                "code": "6190",
+                "name": "Alte activit\u0103\u021bi de telecomunica\u021bii",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "62",
+        "name": "Activit\u0103\u021bi de servicii \u00een tehnologia informa\u021biei",
+        "categories": [
+          {
+            "code": "620",
+            "name": "Activit\u0103\u021bi de servicii in tehnologia informatiei",
+            "categories": [
+              {
+                "code": "6201",
+                "name": "Activit\u0103\u021bi de realizare a soft-ului la comanda (software orientat client)",
+                "categories": []
+              },
+              {
+                "code": "6202",
+                "name": "Activit\u0103\u021bi de consultanta in tehnologia informatiei",
+                "categories": []
+              },
+              {
+                "code": "6203",
+                "name": "Activit\u0103\u021bi de management (gestiune si exploatare) a mijloacelor de calcul",
+                "categories": []
+              },
+              {
+                "code": "6209",
+                "name": "Alte activit\u0103\u021bi de servicii privind tehnologia informatiei",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "63",
+        "name": "Activit\u0103\u021bi de servicii informatice",
+        "categories": [
+          {
+            "code": "631",
+            "name": "Activit\u0103\u021bi ale portalurilor web, prelucrarea datelor, administrarea paginilor web si activit\u0103\u021bi conexe",
+            "categories": [
+              {
+                "code": "6311",
+                "name": "Prelucrarea datelor, administrarea paginilor web si activit\u0103\u021bi conexe",
+                "categories": []
+              },
+              {
+                "code": "6312",
+                "name": "Activit\u0103\u021bi ale portalurilor web",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "639",
+            "name": "Alte activit\u0103\u021bi de servicii informa\u021bionale",
+            "categories": [
+              {
+                "code": "6391",
+                "name": "Activit\u0103\u021bi ale agen\u021biilor de stiri",
+                "categories": []
+              },
+              {
+                "code": "6399",
+                "name": "Alte activit\u0103\u021bi de servicii informationale n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "K",
+    "name": "Intermedieri financiare \u0219i asigur\u0103ri",
+    "categories": [
+      {
+        "code": "64",
+        "name": "Intermedieri financiare, cu excep\u021bia activit\u0103\u021bilor de asigur\u0103ri \u0219i ale fondurilor de pensii",
+        "categories": [
+          {
+            "code": "641",
+            "name": "Intermediere monetara",
+            "categories": [
+              {
+                "code": "6411",
+                "name": "Activit\u0103\u021bi ale bancii centrale (nationale)",
+                "categories": []
+              },
+              {
+                "code": "6419",
+                "name": "Alte activit\u0103\u021bi de intermedieri monetare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "642",
+            "name": "Activit\u0103\u021bi ale holdingurilor",
+            "categories": [
+              {
+                "code": "6420",
+                "name": "Activit\u0103\u021bi ale holdingurilor",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "643",
+            "name": "Fonduri mutuale si alte entit\u0103\u021bi financiare similare",
+            "categories": [
+              {
+                "code": "6430",
+                "name": "Fonduri mutuale si alte entit\u0103\u021bi financiare similare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "649",
+            "name": "Alte activit\u0103\u021bi de intermedieri financiare, exclusiv activit\u0103\u021bi de asigur\u0103ri si fonduri de pensii",
+            "categories": [
+              {
+                "code": "6491",
+                "name": "Leasing financiar",
+                "categories": []
+              },
+              {
+                "code": "6492",
+                "name": "Alte activit\u0103\u021bi de creditare",
+                "categories": []
+              },
+              {
+                "code": "6499",
+                "name": "Alte intermedieri financiare n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "65",
+        "name": "Activit\u0103\u021bi de asigur\u0103ri, reasigur\u0103ri \u0219i ale fondurilor de pensii (cu excep\u021bia celor din sistemul public de asigur\u0103ri sociale)",
+        "categories": [
+          {
+            "code": "651",
+            "name": "Activit\u0103\u021bi de asigur\u0103ri",
+            "categories": [
+              {
+                "code": "6511",
+                "name": "Activit\u0103\u021bi de asigur\u0103ri de viata",
+                "categories": []
+              },
+              {
+                "code": "6512",
+                "name": "Alte activit\u0103\u021bi de asigur\u0103ri (exceptand asigur\u0103rile de viata)",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "652",
+            "name": "Activit\u0103\u021bi de reasigurare",
+            "categories": [
+              {
+                "code": "6520",
+                "name": "Activit\u0103\u021bi de reasigurare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "653",
+            "name": "Activit\u0103\u021bi ale fondurilor de pensii (cu excep\u021bia celor din sistemul public de asigur\u0103ri sociale)",
+            "categories": [
+              {
+                "code": "6530",
+                "name": "Activit\u0103\u021bi ale fondurilor de pensii (cu excep\u021bia celor din sistemul public de asigur\u0103ri sociale)",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "66",
+        "name": "Activit\u0103\u021bi auxiliare pentru intermedieri financiare, activit\u0103\u021bi de asigurare \u0219i fonduri de pensii",
+        "categories": [
+          {
+            "code": "661",
+            "name": "Activit\u0103\u021bi auxiliare intermedierilor financiare, cu excep\u021bia activit\u0103\u021bilor de asigur\u0103ri si fonduri de pensii",
+            "categories": [
+              {
+                "code": "6611",
+                "name": "Administrarea pie\u021belor financiare",
+                "categories": []
+              },
+              {
+                "code": "6612",
+                "name": "Activit\u0103\u021bi de intermediere a tranzactiilor financiare",
+                "categories": []
+              },
+              {
+                "code": "6619",
+                "name": "Activit\u0103\u021bi auxiliare intermedierilor financiare, exclusiv activit\u0103\u021bi de asigur\u0103ri si fonduri de pensii",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "662",
+            "name": "Activit\u0103\u021bi auxiliare de asigur\u0103ri si fonduri de pensii",
+            "categories": [
+              {
+                "code": "6621",
+                "name": "Activit\u0103\u021bi de evaluare a riscului de asigurare si a pagubelor",
+                "categories": []
+              },
+              {
+                "code": "6622",
+                "name": "Activit\u0103\u021bi ale agen\u021bilor si broker-ilor de asigur\u0103ri",
+                "categories": []
+              },
+              {
+                "code": "6629",
+                "name": "Alte activit\u0103\u021bi auxiliare de asigur\u0103ri si fonduri de pensii",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "663",
+            "name": "Activit\u0103\u021bi de administrare a fondurilor",
+            "categories": [
+              {
+                "code": "6630",
+                "name": "Activit\u0103\u021bi de administrare a fondurilor",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "L",
+    "name": "Tranzac\u021bii imobiliare",
+    "categories": [
+      {
+        "code": "68",
+        "name": "Tranzac\u021bii imobiliare",
+        "categories": [
+          {
+            "code": "681",
+            "name": "Cumpararea si v\u00e2nzarea de bunuri imobiliare proprii",
+            "categories": [
+              {
+                "code": "6810",
+                "name": "Cumpararea si v\u00e2nzarea de bunuri imobiliare proprii",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "682",
+            "name": "Inchirierea si subinchirierea bunurilor imobiliare proprii sau inchiriate",
+            "categories": [
+              {
+                "code": "6820",
+                "name": "Inchirierea si subinchirierea bunurilor imobiliare proprii sau inchiriate",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "683",
+            "name": "Activit\u0103\u021bi imobiliare pe baza de comision sau contract",
+            "categories": [
+              {
+                "code": "6831",
+                "name": "Agentii imobiliare",
+                "categories": []
+              },
+              {
+                "code": "6832",
+                "name": "Administrarea imobilelor pe baza de comision sau contract",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "M",
+    "name": "Activit\u0103\u021bi profesionale, \u0219tiin\u021bifice \u0219i tehnice",
+    "categories": [
+      {
+        "code": "69",
+        "name": "Activit\u0103\u021bi juridice \u0219i de contabilitate",
+        "categories": [
+          {
+            "code": "691",
+            "name": "Activit\u0103\u021bi juridice",
+            "categories": [
+              {
+                "code": "6910",
+                "name": "Activit\u0103\u021bi juridice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "692",
+            "name": "Activit\u0103\u021bi de contabilitate si audit financiar; consultanta in domeniul fiscal",
+            "categories": [
+              {
+                "code": "6920",
+                "name": "Activit\u0103\u021bi de contabilitate si audit financiar; consultanta in domeniul fiscal",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "70",
+        "name": "Activit\u0103\u021bi ale direc\u021biilor (centralelor), birourilor administrative centralizate; activit\u0103\u021bi de management \u0219i de consultan\u021b\u0103 \u00een management",
+        "categories": [
+          {
+            "code": "701",
+            "name": "Activit\u0103\u021bi ale directiilor (centralelor), birourilor administrative centralizate",
+            "categories": [
+              {
+                "code": "7010",
+                "name": "Activit\u0103\u021bi ale directiilor (centralelor), birourilor administrative centralizate",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "702",
+            "name": "Activit\u0103\u021bi de consultanta in management",
+            "categories": [
+              {
+                "code": "7021",
+                "name": "Activit\u0103\u021bi de consultanta in domeniul relatiilor publice si al comunicarii",
+                "categories": []
+              },
+              {
+                "code": "7022",
+                "name": "Activit\u0103\u021bi de consultanta pentru afaceri si management",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "71",
+        "name": "Activit\u0103\u021bi de arhitectur\u0103 \u0219i inginerie; activit\u0103\u021bi de test\u0103ri \u0219i analiz\u0103 tehnic\u0103",
+        "categories": [
+          {
+            "code": "711",
+            "name": "Activit\u0103\u021bi de arhitectura, inginerie si servicii de consultanta tehnica legate de acestea",
+            "categories": [
+              {
+                "code": "7111",
+                "name": "Activit\u0103\u021bi de arhitectura",
+                "categories": []
+              },
+              {
+                "code": "7112",
+                "name": "Activit\u0103\u021bi de inginerie si consultanta tehnica legate de acestea",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "712",
+            "name": "Activit\u0103\u021bi de testari si analize tehnice",
+            "categories": [
+              {
+                "code": "7120",
+                "name": "Activit\u0103\u021bi de testari si analize tehnice",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "72",
+        "name": "Cercetare-dezvoltare",
+        "categories": [
+          {
+            "code": "721",
+            "name": "Cercetare-dezvoltare in stiinte naturale si inginerie",
+            "categories": [
+              {
+                "code": "7211",
+                "name": "Cercetare",
+                "categories": []
+              },
+              {
+                "code": "7219",
+                "name": "Cercetare- dezvoltare in alte stiinte naturale si inginerie",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "722",
+            "name": "Cercetare-dezvoltare in stiinte sociale si umaniste",
+            "categories": [
+              {
+                "code": "7220",
+                "name": "Cercetare- dezvoltare in stiinte sociale si umaniste",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "73",
+        "name": "Publicitate \u0219i activit\u0103\u021bi de studiere a pie\u021bei",
+        "categories": [
+          {
+            "code": "731",
+            "name": "Publicitate",
+            "categories": [
+              {
+                "code": "7311",
+                "name": "Activit\u0103\u021bi ale agen\u021biilor de publicitate",
+                "categories": []
+              },
+              {
+                "code": "7312",
+                "name": "Servicii de reprezentare media",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "732",
+            "name": "Activit\u0103\u021bi de studiere a pie\u021bei si de sondare a opiniei publice",
+            "categories": [
+              {
+                "code": "7320",
+                "name": "Activit\u0103\u021bi de studiere a pie\u021bei si de sondare a opiniei publice",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "74",
+        "name": "Alte activit\u0103\u021bi profesionale, \u0219tiin\u021bifice \u0219i tehnice",
+        "categories": [
+          {
+            "code": "741",
+            "name": "Activit\u0103\u021bi de design specializat",
+            "categories": [
+              {
+                "code": "7410",
+                "name": "Activit\u0103\u021bi de design specializat",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "742",
+            "name": "Activit\u0103\u021bi fotografice",
+            "categories": [
+              {
+                "code": "7420",
+                "name": "Activit\u0103\u021bi fotografice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "743",
+            "name": "Activit\u0103\u021bi de traducere scris\u0103 si orala (interpreti)",
+            "categories": [
+              {
+                "code": "7430",
+                "name": "Activit\u0103\u021bi de traducere scris\u0103 si orala (interpreti)",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "749",
+            "name": "Alte activit\u0103\u021bi profesionale, stiintifice si tehnice n.c.a.",
+            "categories": [
+              {
+                "code": "7490",
+                "name": "Alte activit\u0103\u021bi profesionale, stiintifice si tehnice n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "75",
+        "name": "Activit\u0103\u021bi veterinare",
+        "categories": [
+          {
+            "code": "750",
+            "name": "Activit\u0103\u021bi veterinare",
+            "categories": [
+              {
+                "code": "7500",
+                "name": "Activit\u0103\u021bi veterinare",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "N",
+    "name": "Activit\u0103\u021bi de servicii administrative \u0219i activit\u0103\u021bi de servicii suport",
+    "categories": [
+      {
+        "code": "77",
+        "name": "Activit\u0103\u021bi de \u00eenchiriere \u0219i leasing",
+        "categories": [
+          {
+            "code": "771",
+            "name": "Activit\u0103\u021bi de inchiriere si leasing cu autovehicule",
+            "categories": [
+              {
+                "code": "7711",
+                "name": "Activit\u0103\u021bi de inchiriere si leasing cu autoturisme si autovehicule rutiere usoare",
+                "categories": []
+              },
+              {
+                "code": "7712",
+                "name": "Activit\u0103\u021bi de inchiriere si leasing cu autovehicule rutiere grele",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "772",
+            "name": "Activit\u0103\u021bi de inchiriere si leasing cu bunuri personale si gospodaresti",
+            "categories": [
+              {
+                "code": "7721",
+                "name": "Activit\u0103\u021bi de inchiriere si leasing cu bunuri recreationale si echipament sportiv",
+                "categories": []
+              },
+              {
+                "code": "7722",
+                "name": "Inchirierea de casete video si discuri (CD-uri, DVD-uri)",
+                "categories": []
+              },
+              {
+                "code": "7729",
+                "name": "Activit\u0103\u021bi de inchiriere si leasing cu alte bunuri personale si gospodaresti n.c.a.",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "773",
+            "name": "Activit\u0103\u021bi de inchiriere si leasing cu alte masini, echipamente si bunuri tangibile",
+            "categories": [
+              {
+                "code": "7731",
+                "name": "Activit\u0103\u021bi de inchiriere si leasing cu masini si echipamente agricole",
+                "categories": []
+              },
+              {
+                "code": "7732",
+                "name": "Activit\u0103\u021bi de inchiriere si leasing cu masini si echipamente pentru construc\u021bii",
+                "categories": []
+              },
+              {
+                "code": "7733",
+                "name": "Activit\u0103\u021bi de inchiriere si leasing cu masini si echipamente de birou (inclusiv calculatoare)",
+                "categories": []
+              },
+              {
+                "code": "7734",
+                "name": "Activit\u0103\u021bi de inchiriere si leasing cu masini si echipamente de transport pe apa",
+                "categories": []
+              },
+              {
+                "code": "7735",
+                "name": "Activit\u0103\u021bi de inchiriere si leasing cu masini si echipamente de transport aerian",
+                "categories": []
+              },
+              {
+                "code": "7739",
+                "name": "Activit\u0103\u021bi de inchiriere si leasing cu alte masini, echipamente si bunuri tangibile n.c.a.",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "774",
+            "name": "Leasing cu bunuri intangibile (exclusiv financiare)",
+            "categories": [
+              {
+                "code": "7740",
+                "name": "Leasing cu bunuri intangibile (exclusiv financiare)",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "78",
+        "name": "Activit\u0103\u021bi de servicii privind for\u021ba de munc\u0103",
+        "categories": [
+          {
+            "code": "781",
+            "name": "Activit\u0103\u021bi ale agen\u021biilor de plasare a for\u021bei de munca",
+            "categories": [
+              {
+                "code": "7810",
+                "name": "Activit\u0103\u021bi ale agen\u021biilor de plasare a for\u021bei de munca",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "782",
+            "name": "Activit\u0103\u021bi de contractare, pe baze temporare, a personalului",
+            "categories": [
+              {
+                "code": "7820",
+                "name": "Activit\u0103\u021bi de contractare, pe baze temporare, a personalului",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "783",
+            "name": "Servicii de furnizare si management a for\u021bei de munca",
+            "categories": [
+              {
+                "code": "7830",
+                "name": "Servicii de furnizare si management a for\u021bei de munca",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "79",
+        "name": "Activit\u0103\u021bi ale agen\u021biilor turistice \u0219i a tur-operatorilor; alte servicii de rezervare \u0219i asisten\u021b\u0103 turistic\u0103",
+        "categories": [
+          {
+            "code": "791",
+            "name": "Activit\u0103\u021bi ale agen\u021biilor turistice si a tur-operatorilor",
+            "categories": [
+              {
+                "code": "7911",
+                "name": "Activit\u0103\u021bi ale agen\u021biilor turistice",
+                "categories": []
+              },
+              {
+                "code": "7912",
+                "name": "Activit\u0103\u021bi ale tur-operatorilor",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "799",
+            "name": "Alte servicii de rezervare si asistenta turistica",
+            "categories": [
+              {
+                "code": "7990",
+                "name": "Alte servicii de rezervare si asistenta turistica",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "80",
+        "name": "Activit\u0103\u021bi de investiga\u021bii \u0219i protec\u021bie",
+        "categories": [
+          {
+            "code": "801",
+            "name": "Activit\u0103\u021bi de protectie si garda",
+            "categories": [
+              {
+                "code": "8010",
+                "name": "Activit\u0103\u021bi de protectie si garda",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "802",
+            "name": "Activit\u0103\u021bi de servicii privind sistemele de securizare",
+            "categories": [
+              {
+                "code": "8020",
+                "name": "Activit\u0103\u021bi de servicii privind sistemele de securizare",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "803",
+            "name": "Activit\u0103\u021bi de investiga\u021bii",
+            "categories": [
+              {
+                "code": "8030",
+                "name": "Activit\u0103\u021bi de investiga\u021bii",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "81",
+        "name": "Activit\u0103\u021bi de peisagistic\u0103 \u0219i servicii pentru cl\u0103diri",
+        "categories": [
+          {
+            "code": "811",
+            "name": "Activit\u0103\u021bi de servicii suport combinate",
+            "categories": [
+              {
+                "code": "8110",
+                "name": "Activit\u0103\u021bi de servicii suport combinate",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "812",
+            "name": "Activit\u0103\u021bi de curatenie",
+            "categories": [
+              {
+                "code": "8121",
+                "name": "Activit\u0103\u021bi generale de curatenie a cladirilor",
+                "categories": []
+              },
+              {
+                "code": "8122",
+                "name": "Activit\u0103\u021bi specializate de curatenie",
+                "categories": []
+              },
+              {
+                "code": "8129",
+                "name": "Alte activit\u0103\u021bi de curatenie",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "813",
+            "name": "Activit\u0103\u021bi de intetinere peisagistica",
+            "categories": [
+              {
+                "code": "8130",
+                "name": "Activit\u0103\u021bi de intretinere peisagistica",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "82",
+        "name": "Activit\u0103\u021bi de peisagistic\u0103 \u0219i servicii pentru cl\u0103diri",
+        "categories": [
+          {
+            "code": "821",
+            "name": "Activit\u0103\u021bi de secretariat \u0219i servicii suport",
+            "categories": [
+              {
+                "code": "8211",
+                "name": "Activit\u0103\u021bi combinate de secretariat",
+                "categories": []
+              },
+              {
+                "code": "8219",
+                "name": "Activit\u0103\u021bi de fotocopiere, de pregatire a documentelor si alte activit\u0103\u021bi specializate de secretariat",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "822",
+            "name": "Activit\u0103\u021bi ale centrelor de intermediere telefonica (call center)",
+            "categories": [
+              {
+                "code": "8220",
+                "name": "Activit\u0103\u021bi ale centrelor de intermediere telefonica (call center)",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "823",
+            "name": "Activit\u0103\u021bi de organizare a expozitiilor, targurilor si congreselor",
+            "categories": [
+              {
+                "code": "8230",
+                "name": "Activit\u0103\u021bi de organizare a expozitiilor, targurilor si congreselor",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "829",
+            "name": "Activit\u0103\u021bi de servicii suport pentru intreprinderi n.c.a.",
+            "categories": [
+              {
+                "code": "8291",
+                "name": "Activit\u0103\u021bi ale agen\u021biilor de colectare si a birourilor (oficiilor) de raportare a creditului",
+                "categories": []
+              },
+              {
+                "code": "8292",
+                "name": "Activit\u0103\u021bi de ambalare",
+                "categories": []
+              },
+              {
+                "code": "8299",
+                "name": "Alte activit\u0103\u021bi de servicii suport pentru intreprinderi n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "O",
+    "name": "Administra\u021bie public\u0103 \u0219i ap\u0103rare; asigur\u0103ri sociale din sistemul public",
+    "categories": [
+      {
+        "code": "84",
+        "name": "Administra\u021bie public\u0103 \u0219i ap\u0103rare; asigur\u0103ri sociale din sistemul public",
+        "categories": [
+          {
+            "code": "841",
+            "name": "Administratie publica generala, economica si sociala",
+            "categories": [
+              {
+                "code": "8411",
+                "name": "Servicii de administratie publica generala",
+                "categories": []
+              },
+              {
+                "code": "8412",
+                "name": "Reglementarea activit\u0103\u021bilor organismelor care presteaza servicii in domeniul ingrijirii sanatatii, invatamantului, culturii si al altor activit\u0103\u021bi sociale, exclusiv protectia sociala",
+                "categories": []
+              },
+              {
+                "code": "8413",
+                "name": "Reglementarea si eficientizarea activit\u0103\u021bilor economice",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "842",
+            "name": "Activit\u0103\u021bi de servicii pentru societate",
+            "categories": [
+              {
+                "code": "8421",
+                "name": "Activit\u0103\u021bi de servicii externe",
+                "categories": []
+              },
+              {
+                "code": "8422",
+                "name": "Activit\u0103\u021bi de aparare nationala",
+                "categories": []
+              },
+              {
+                "code": "8423",
+                "name": "Activit\u0103\u021bi de justitie",
+                "categories": []
+              },
+              {
+                "code": "8424",
+                "name": "Activit\u0103\u021bi de ordine publica si de protectie civila",
+                "categories": []
+              },
+              {
+                "code": "8425",
+                "name": "Activit\u0103\u021bi de lupta impotriva incendiilor si de prevenire a acestora",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "843",
+            "name": "Activit\u0103\u021bi de protectie sociala obligatorie",
+            "categories": [
+              {
+                "code": "8430",
+                "name": "Activit\u0103\u021bi de protectie sociala obligatorie",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "P",
+    "name": "\u00cenv\u0103\u021b\u0103m\u00e2nt",
+    "categories": [
+      {
+        "code": "85",
+        "name": "\u00cenv\u0103\u021b\u0103m\u00e2nt",
+        "categories": [
+          {
+            "code": "851",
+            "name": "Invatamant pre\u0219colar",
+            "categories": [
+              {
+                "code": "8510",
+                "name": "Invatamant pre\u0219colar",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "852",
+            "name": "Invatamant primar",
+            "categories": [
+              {
+                "code": "8520",
+                "name": "Invatamant primar",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "853",
+            "name": "Invatamant secundar",
+            "categories": [
+              {
+                "code": "8531",
+                "name": "Invatamant secundar general",
+                "categories": []
+              },
+              {
+                "code": "8532",
+                "name": "Invatamant secundar, tehnic sau profesional",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "854",
+            "name": "Invatamant superior",
+            "categories": [
+              {
+                "code": "8541",
+                "name": "Invatamant superior non- universitar",
+                "categories": []
+              },
+              {
+                "code": "8542",
+                "name": "Invatamant superior universitar",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "855",
+            "name": "Alte forme de invatamant",
+            "categories": [
+              {
+                "code": "8551",
+                "name": "Invatamant in domeniul sportiv si recreational",
+                "categories": []
+              },
+              {
+                "code": "8552",
+                "name": "Invatamant in domeniul cultural (limbi straine, muzica, teatru, dans, arte plastice, etc.)",
+                "categories": []
+              },
+              {
+                "code": "8553",
+                "name": "Scoli de conducere (pilotaj)",
+                "categories": []
+              },
+              {
+                "code": "8559",
+                "name": "Alte forme de invatamant n.c.a.",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "856",
+            "name": "Activit\u0103\u021bi de servicii suport pentru invatamant",
+            "categories": [
+              {
+                "code": "8560",
+                "name": "Activit\u0103\u021bi de servicii suport pentru invatamant",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "Q",
+    "name": "S\u0103n\u0103tate \u0219i asisten\u021b\u0103 social\u0103",
+    "categories": [
+      {
+        "code": "86",
+        "name": "Activit\u0103\u021bi referitoare la s\u0103n\u0103tatea uman\u0103",
+        "categories": [
+          {
+            "code": "861",
+            "name": "Activit\u0103\u021bi de asistenta spitaliceasca",
+            "categories": [
+              {
+                "code": "8610",
+                "name": "Activit\u0103\u021bi de asistenta spitaliceasca",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "862",
+            "name": "Activit\u0103\u021bi de asistenta medicala ambulatorie si stomatologica",
+            "categories": [
+              {
+                "code": "8621",
+                "name": "Activit\u0103\u021bi de asistenta medicala generala",
+                "categories": []
+              },
+              {
+                "code": "8622",
+                "name": "Activit\u0103\u021bi de asistenta medicala specializata",
+                "categories": []
+              },
+              {
+                "code": "8623",
+                "name": "Activit\u0103\u021bi de asistenta stomatologica",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "869",
+            "name": "Alte activit\u0103\u021bi referitoare la sanatatea umana",
+            "categories": [
+              {
+                "code": "8690",
+                "name": "Alte activit\u0103\u021bi referitoare la sanatatea umana",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "87",
+        "name": "Servicii combinate de \u00eengrijire medical\u0103 \u0219i asisten\u021b\u0103 social\u0103, cu cazare",
+        "categories": [
+          {
+            "code": "871",
+            "name": "Activit\u0103\u021bi ale centrelor de ingrijire medicala",
+            "categories": [
+              {
+                "code": "8710",
+                "name": "Activit\u0103\u021bi ale centrelor de ingrijire medicala",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "872",
+            "name": "Activit\u0103\u021bi ale centrelor de recuperare pshica si de dezintoxicare, exclusiv spitale",
+            "categories": [
+              {
+                "code": "8720",
+                "name": "Activit\u0103\u021bi ale centrelor de recuperare psihica si de dezintoxicare, exclusiv spitale",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "873",
+            "name": "Activit\u0103\u021bi ale caminelor de b\u0103tr\u00e2ni si ale caminelor pentru persoane aflate in incapacitate de a se ingriji singure",
+            "categories": [
+              {
+                "code": "8730",
+                "name": "Activit\u0103\u021bi ale caminelor de b\u0103tr\u00e2ni si ale caminelor pentru persoane aflate in incapacitate de a se ingriji singure",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "879",
+            "name": "Alte activit\u0103\u021bi de asistenta sociala, cu cazare n.c.a.",
+            "categories": [
+              {
+                "code": "8790",
+                "name": "Alte activit\u0103\u021bi de asistenta sociala, cu cazare n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "88",
+        "name": "Activit\u0103\u021bi de asisten\u021b\u0103 social\u0103, f\u0103r\u0103 cazare",
+        "categories": [
+          {
+            "code": "881",
+            "name": "Activit\u0103\u021bi de asistenta sociala, f\u0103r\u0103 cazare, pentru b\u0103tr\u00e2ni si pentru persoane aflate in incapacitate de a se ingriji singure",
+            "categories": [
+              {
+                "code": "8810",
+                "name": "Activit\u0103\u021bi de asistenta sociala, f\u0103r\u0103 cazare, pentru b\u0103tr\u00e2ni si pentru persoane aflate in incapacitate de a se ingriji singure",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "889",
+            "name": "Alte activit\u0103\u021bi de asistenta sociala, f\u0103r\u0103 cazare",
+            "categories": [
+              {
+                "code": "8891",
+                "name": "Activit\u0103\u021bi de ingrijire zilnica pentru copii",
+                "categories": []
+              },
+              {
+                "code": "8899",
+                "name": "Alte activit\u0103\u021bi de asistenta sociala, f\u0103r\u0103 cazare, n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "R",
+    "name": "Activita\u021bi de spectacole, culturale \u0219i recreative",
+    "categories": [
+      {
+        "code": "90",
+        "name": "Activit\u0103\u021bi de crea\u021bie \u0219i interpretare artistic\u0103",
+        "categories": [
+          {
+            "code": "900",
+            "name": "Activit\u0103\u021bi de crea\u021bie si interpretare artistica",
+            "categories": [
+              {
+                "code": "9001",
+                "name": "Activit\u0103\u021bi de interpretare artistica (spectacole)",
+                "categories": []
+              },
+              {
+                "code": "9002",
+                "name": "Activit\u0103\u021bi suport pentru interpretare artistica (spectacole)",
+                "categories": []
+              },
+              {
+                "code": "9003",
+                "name": "Activit\u0103\u021bi de crea\u021bie artistica",
+                "categories": []
+              },
+              {
+                "code": "9004",
+                "name": "Activit\u0103\u021bi de gestionare a salilor de spectacole",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "91",
+        "name": "Activit\u0103\u021bi ale bibliotecilor, arhivelor, muzeelor \u0219i alte activit\u0103\u021bi culturale",
+        "categories": [
+          {
+            "code": "910",
+            "name": "Activit\u0103\u021bi ale bibliotecilor, arhivelor, muzeelor si alte activit\u0103\u021bi culturale",
+            "categories": [
+              {
+                "code": "9101",
+                "name": "Activit\u0103\u021bi ale bibliotecilor si arhivelor",
+                "categories": []
+              },
+              {
+                "code": "9102",
+                "name": "Activit\u0103\u021bi ale muzeelor",
+                "categories": []
+              },
+              {
+                "code": "9103",
+                "name": "Gestionarea monumentelor, cladirilor istorice si a altor obiective de interes turistic",
+                "categories": []
+              },
+              {
+                "code": "9104",
+                "name": "Activit\u0103\u021bi ale gradinilor zoologice, botanice si ale rezervatiilor naturale",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "92",
+        "name": "Activit\u0103\u021bi de jocuri de noroc \u0219i pariuri",
+        "categories": [
+          {
+            "code": "920",
+            "name": "Activit\u0103\u021bi de jocuri de noroc si pariuri",
+            "categories": [
+              {
+                "code": "9200",
+                "name": "Activit\u0103\u021bi de jocuri de noroc si pariuri",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "93",
+        "name": "Activit\u0103\u021bi sportive, recreative \u0219i distractive",
+        "categories": [
+          {
+            "code": "931",
+            "name": "Activit\u0103\u021bi sportive",
+            "categories": [
+              {
+                "code": "9311",
+                "name": "Activit\u0103\u021bi ale bazelor sportive",
+                "categories": []
+              },
+              {
+                "code": "9312",
+                "name": "Activit\u0103\u021bi ale cluburilor sportive",
+                "categories": []
+              },
+              {
+                "code": "9313",
+                "name": "Activit\u0103\u021bi ale centrelor de fitness",
+                "categories": []
+              },
+              {
+                "code": "9319",
+                "name": "Alte activit\u0103\u021bi sportive",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "932",
+            "name": "Alte activit\u0103\u021bi recreative si distractive",
+            "categories": [
+              {
+                "code": "9321",
+                "name": "B\u00e2lciuri si parcuri de distrac\u021bii",
+                "categories": []
+              },
+              {
+                "code": "9329",
+                "name": "Alte activit\u0103\u021bi recreative si distractive n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "S",
+    "name": "Alte activit\u0103\u021bi de servicii",
+    "categories": [
+      {
+        "code": "94",
+        "name": "Activit\u0103\u021bi asociative diverse",
+        "categories": [
+          {
+            "code": "941",
+            "name": "Activit\u0103\u021bi ale organizatiilor economice, patronale si profesionale",
+            "categories": [
+              {
+                "code": "9411",
+                "name": "Activit\u0103\u021bi ale organizatiilor economice si patronale",
+                "categories": []
+              },
+              {
+                "code": "9412",
+                "name": "Activit\u0103\u021bi ale organizatiilor profesionale",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "942",
+            "name": "Activit\u0103\u021bi ale sindicatelor salariatilor",
+            "categories": [
+              {
+                "code": "9420",
+                "name": "Activit\u0103\u021bi ale sindicatelor salariatilor",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "949",
+            "name": "Alte activit\u0103\u021bi asociative",
+            "categories": [
+              {
+                "code": "9491",
+                "name": "Activit\u0103\u021bi ale organizatiilor religioase",
+                "categories": []
+              },
+              {
+                "code": "9492",
+                "name": "Activit\u0103\u021bi ale organizatiilor politice",
+                "categories": []
+              },
+              {
+                "code": "9499",
+                "name": "Activit\u0103\u021bi ale altor organizatii n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "95",
+        "name": "Repara\u021bii de calculatoare, de articole personale \u0219i de uz gospod\u0103resc",
+        "categories": [
+          {
+            "code": "951",
+            "name": "Repararea calculatoarelor si a echipamentelor de comunica\u021bii",
+            "categories": [
+              {
+                "code": "9511",
+                "name": "Repararea calculatoarelor si a echipamentelor periferice",
+                "categories": []
+              },
+              {
+                "code": "9512",
+                "name": "Repararea echipamentelor de comunica\u021bii",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "952",
+            "name": "Reparatii de articole personale si de uz gospodaresc",
+            "categories": [
+              {
+                "code": "9521",
+                "name": "Repararea aparatelor electronice de uz casnic",
+                "categories": []
+              },
+              {
+                "code": "9522",
+                "name": "Repararea dispozitivelor de uz gospodaresc si a echipamentelor pentru casa si gradina",
+                "categories": []
+              },
+              {
+                "code": "9523",
+                "name": "Repararea incaltamintei si a articolelor din piele",
+                "categories": []
+              },
+              {
+                "code": "9524",
+                "name": "Repararea mobilei si a furniturilor casnice",
+                "categories": []
+              },
+              {
+                "code": "9525",
+                "name": "Repararea ceasurilor si a bijuteriilor",
+                "categories": []
+              },
+              {
+                "code": "9529",
+                "name": "Repararea articolelor de uz personal si gospodaresc n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "96",
+        "name": "Alte activit\u0103\u021bi de servicii",
+        "categories": [
+          {
+            "code": "960",
+            "name": "Alte activit\u0103\u021bi de servicii",
+            "categories": [
+              {
+                "code": "9601",
+                "name": "Spalarea si curatarea (uscata) articolelor textile si a produselor din blana",
+                "categories": []
+              },
+              {
+                "code": "9602",
+                "name": "Coafura si alte activit\u0103\u021bi de infrumusetare",
+                "categories": []
+              },
+              {
+                "code": "9603",
+                "name": "Activit\u0103\u021bi de pompe funebre si similare",
+                "categories": []
+              },
+              {
+                "code": "9604",
+                "name": "Activit\u0103\u021bi de intretinere corporala",
+                "categories": []
+              },
+              {
+                "code": "9609",
+                "name": "Alte activit\u0103\u021bi de servicii n.c.a.",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "T",
+    "name": "Activit\u0103\u021bi ale gospod\u0103riilor private \u00een calitate de angajator de personal casnic; activit\u0103\u021bi ale gospod\u0103riilor private de producere de bunuri \u0219i servicii destinate consumului propriu",
+    "categories": [
+      {
+        "code": "97",
+        "name": "Activit\u0103\u021bi ale gospod\u0103riilor private \u00een calitate de angajator de personal casnic",
+        "categories": [
+          {
+            "code": "970",
+            "name": "Activit\u0103\u021bi ale gospodariilor private in calitate de angajator de personal casnic",
+            "categories": [
+              {
+                "code": "9700",
+                "name": "Activit\u0103\u021bi ale gospodariilor private in calitate de angajator de personal casnic",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": "98",
+        "name": "Activit\u0103\u021bi ale gospod\u0103riilor private de producere de bunuri \u0219i servicii destinate consumului propriu",
+        "categories": [
+          {
+            "code": "981",
+            "name": "Activit\u0103\u021bi ale gospodariilor private de producere de bunuri destinate consumului propriu",
+            "categories": [
+              {
+                "code": "9810",
+                "name": "Activit\u0103\u021bi ale gospodariilor private de producere de bunuri destinate consumului propriu",
+                "categories": []
+              }
+            ]
+          },
+          {
+            "code": "982",
+            "name": "Activit\u0103\u021bi ale gospodariilor private de producere de servicii pentru scopuri proprii",
+            "categories": [
+              {
+                "code": "9820",
+                "name": "Activit\u0103\u021bi ale gospodariilor private de producere de servicii pentru scopuri proprii",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "U",
+    "name": "Activit\u0103\u021bi ale organiza\u021biilor \u0219i organismelor extrateritoriale",
+    "categories": [
+      {
+        "code": "99",
+        "name": "Activit\u0103\u021bi ale organiza\u021biilor \u0219i organismelor extrateritoriale",
+        "categories": [
+          {
+            "code": "990",
+            "name": "Activit\u0103\u021bi ale organizatiilor si organismelor extrateritoriale",
+            "categories": [
+              {
+                "code": "9900",
+                "name": "Activit\u0103\u021bi ale organizatiilor si organismelor extrateritoriale",
+                "categories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
