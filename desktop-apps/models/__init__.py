@@ -9,6 +9,9 @@ SQLAlchemyBaseModel = declarative_base()
 class CustomModel:
     id = Column(INTEGER, autoincrement=True, primary_key=True)
 
+    def __init__(self, *args, **kwargs):
+        super(*args, **kwargs)
+
 
 class Ingredient(SQLAlchemyBaseModel, CustomModel):
     __tablename__ = 'ingredients'
