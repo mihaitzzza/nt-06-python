@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>My Products Page</title>
+{% endblock %}
+
+{% block content %}
+    <h1>My Products Page</h1>
+    <ul>
+        {% for product in products %}
+            <li style="margin-bottom: 10px;">
+                {{ product.name }} - {{ product.price }} RON <a href="{% url 'products:details' product.id %}">View product</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
