@@ -1,4 +1,11 @@
 <nav>
     <a href="/">Homepage</a>
     <a href="{% url 'products:all' %}">Products</a>
+    <a href="{% url 'stores:all' %}">Stores</a>
+    {% if not request.user.is_authenticated %}
+        <a href="{% url 'users:login' %}">Login</a>
+        <a href="{% url 'users:register' %}">Register</a>
+    {% else %}
+        <a href="{% url 'users:logout' %}">Logout</a>
+    {% endif %}
 </nav>

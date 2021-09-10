@@ -9,7 +9,23 @@
     <ul>
         {% for product in products %}
             <li style="margin-bottom: 10px;">
-                {{ product.name }} - {{ product.price }} RON <a href="{% url 'products:details' product.id %}">View product</a>
+                <div>
+                    {{ product.name }} - {{ product.price }} RON <a href="{% url 'products:details' product.id %}">View product</a>
+                </div>
+                <div>
+                    Extra details:
+                    <ul>
+                        <li>
+                            Color: {{ product.color }}
+                        </li>
+                        <li>
+                            Size: {{ product.human_size }}
+                        </li>
+                        <li>
+                            Gender: {{ product.gender }}
+                        </li>
+                    </ul>
+                </div>
             </li>
         {% endfor %}
     </ul>
