@@ -1,11 +1,19 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}
     <title>My first Django homepage</title>
 {% endblock %}
 
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'styles/homepage.css' %}" />
+{% endblock %}
+
 {% block content %}
-    <h1>{{ title }}</h1>
+    <h1>
+        <img src="{% static 'images/djangoLogo.png' %}" width="75" />
+        <span>{{ title }}</span>
+    </h1>
     <h2>Homepage</h2>
     <h3>Services</h3>
     <ul>
@@ -20,5 +28,60 @@
 Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly, procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.[31]
 
 Guido van Rossum began working on Python in the late 1980s, as a successor to the ABC programming language, and first released it in 1991 as Python 0.9.0.[32] Python 2.0 was released in 2000 and introduced new features, such as list comprehensions and a garbage collection system using reference counting. Python 3.0 was released in 2008 and was a major revision of the language that is not completely backward-compatible. Python 2 was discontinued with version 2.7.18 in 2020.[33]</p>
-<a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">View more...</a>
+<a class="btn btn-danger" href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">View more...</a>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            Col 12
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            Col 6
+        </div>
+        <div class="col-6">
+            Col 6
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            Col 4
+        </div>
+        <div class="col-4">
+            Col 4
+        </div>
+        <div class="col-4">
+            Col 4
+        </div>
+    </div>
+    <br/><br/>
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+            Col 3
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            Col 3
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            Col 3
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            Col 3
+        </div>
+    </div>
+    <br/><br/>
+    <div class="row">
+        <div class="col-2" style="background-color: red">
+            Col 2
+        </div>
+        <div class="col-6" style="background-color: blue">
+            Col 6
+        </div>
+        <div class="col-4" style="background-color: green">
+            Col 4
+        </div>
+    </div>
+</div>
+
 {% endblock %}

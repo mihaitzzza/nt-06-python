@@ -2,6 +2,8 @@ from django import forms
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.password_validation import validate_password, password_validators_help_text_html
+from utils.upload import handle_uploaded_file
+from users.models import Profile
 
 AuthUserModel = get_user_model()
 
@@ -157,3 +159,18 @@ class RegisterForm(UserCreationForm):
     class Meta:
         model = AuthUserModel
         fields = ['first_name', 'last_name', 'username']
+
+
+# class ProfileImageForm(forms.Form):
+#     image = forms.ImageField(label='Choose profile picture', required=True)
+#
+#     def save(self):
+#         image = self.cleaned_data.get('image')
+#         print('image', image)
+#         handle_uploaded_file(image)
+
+
+class ProfileImageForm(forms.ModelForm):
+    class Meta:
+        model = Profile
+        fields = ['avatar']

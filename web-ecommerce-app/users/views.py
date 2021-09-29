@@ -1,6 +1,7 @@
 from django.shortcuts import render, Http404, reverse, redirect
 from django.contrib.auth import authenticate, login, logout
-from users.forms import RegisterForm
+from django.contrib.auth.decorators import login_required
+from users.forms import RegisterForm, ProfileImageForm
 
 
 def login_user(request):
@@ -43,4 +44,30 @@ def register_user(request):
 
     return render(request, 'users/register.html', {
         'form': form,
+    })
+
+
+@login_required
+def show_profile(request):
+    # if request.method == 'GET':
+    #     form = ProfileImageForm()
+    # else:
+    #     form = ProfileImageForm(request.POST, request.FILES)
+    #
+    #     if form.is_valid():
+    #         form.save()
+    #
+    #         return redirect(reverse('users:profile'))
+    if request.method == 'GET':
+        form = ProfileImageForm()
+    else:
+        form = ProfileImageForm(request.POST, request.FILES, instance=request.user.profile)
+
+        if form.is_valid():
+            form.save()
+
+            return redirect(reverse('users:profile'))
+
+    return render(request, 'users/profile.html', {
+        'form': form
     })
