@@ -1,0 +1,41 @@
+[
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "T-Shirt",
+    "store": 1,
+    "quantity": 10,
+    "price": "49.90",
+    "color": "green",
+    "size": 2,
+    "gender": "M"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "T-Shirt",
+    "store": 2,
+    "quantity": 25,
+    "price": "49.90",
+    "color": "red",
+    "size": 4,
+    "gender": "M"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Blue Jeans",
+    "store": 2,
+    "quantity": 10,
+    "price": "99.90",
+    "color": "blue",
+    "size": 2,
+    "gender": "F"
+  }
+}
+]

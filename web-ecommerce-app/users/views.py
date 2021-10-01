@@ -1,7 +1,12 @@
-from django.shortcuts import render, Http404, reverse, redirect
+import secrets
+from django.shortcuts import render, Http404, reverse, redirect, HttpResponse, get_object_or_404
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from users.forms import RegisterForm, ProfileImageForm
+from django.utils import timezone
+from users.forms import RegisterForm, ProfileImageForm, PasswordForm
+from users.models import Activation
+from users.email import send_activation_mail
+from utils.constants.activation import ACTIVATION_DICT
 
 
 def login_user(request):
@@ -71,3 +76,39 @@ def show_profile(request):
     return render(request, 'users/profile.html', {
         'form': form
     })
+
+
+def activate(request, token):
+    activation = get_object_or_404(Activation, token=token)
+
+    if activation.expires_at < timezone.now():
+        return redirect(reverse('users:regenerate_token', args=(token,)))
+
+    if request.method == 'GET':
+        form = PasswordForm(activation.user)
+    else:
+        form = PasswordForm(activation.user, request.POST)
+
+        if form.is_valid():
+            form.save()
+            return redirect(reverse('users:login'))
+
+    return render(request, 'users/set_password.html', {
+        'form': form,
+        'token': token,
+    })
+
+
+def regenerate_token(request, token):
+    activation = get_object_or_404(Activation, token=token)
+
+    if activation.expires_at >= timezone.now():
+        return redirect('users:activate', args=(token,))
+
+    activation.token = secrets.token_hex(32)
+    activation.expires_at = timezone.now() + timezone.timedelta(**ACTIVATION_DICT)
+    activation.save()
+
+    send_activation_mail(activation)
+
+    return redirect('/')
