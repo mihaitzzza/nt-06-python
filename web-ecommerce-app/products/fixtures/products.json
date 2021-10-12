@@ -27,11 +27,47 @@
   "id": 3,
   "fields": {
     "name": "Blue Jeans",
-    "store_id": 2,
+    "store_id": 3,
     "quantity": 10,
     "price": 99.90,
     "color": "blue",
     "size": 2,
+    "gender": "F"
+  }
+}, {
+  "model": "products.product",
+  "id": 4,
+  "fields": {
+    "name": "T-Shirt",
+    "store_id": 1,
+    "quantity": 25,
+    "price": 24.90,
+    "color": "red",
+    "size": 3,
+    "gender": "M"
+  }
+}, {
+  "model": "products.product",
+  "id": 5,
+  "fields": {
+    "name": "T-Shirt",
+    "store_id": 1,
+    "quantity": 75,
+    "price": 9.99,
+    "color": "white",
+    "size": 4,
+    "gender": "F"
+  }
+}, {
+  "model": "products.product",
+  "id": 6,
+  "fields": {
+    "name": "Blue Jeans",
+    "store_id": 2,
+    "quantity": 15,
+    "price": 120.00,
+    "color": "blue",
+    "size":1,
     "gender": "F"
   }
 }]

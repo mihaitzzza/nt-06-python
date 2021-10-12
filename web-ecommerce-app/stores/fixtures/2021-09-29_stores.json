@@ -1,2 +1,26 @@
 [
+  {
+    "model": "stores.store",
+    "pk": 1,
+    "fields": {
+      "name": "Store #1",
+      "owner_id": 2
+    }
+  },
+  {
+    "model": "stores.store",
+    "pk": 2,
+    "fields": {
+      "name": "Store #2",
+      "owner_id": 3
+    }
+  },
+  {
+    "model": "stores.store",
+    "pk": 3,
+    "fields": {
+      "name": "Store #3",
+      "owner_id": 4
+    }
+  }
 ]

@@ -5,28 +5,58 @@
 {% endblock %}
 
 {% block content %}
-    <h1>My Products Page</h1>
-    <ul>
-        {% for product in products %}
-            <li style="margin-bottom: 10px;">
-                <div>
-                    {{ product.name }} - {{ product.price }} RON <a href="{% url 'products:details' product.id %}">View product</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>My Products Page</h1>
+            </div>
+        </div>
+        {% if page_obj.paginator.num_pages > 1 %}
+            <div class="row">
+                <div class="col-12">
+                    {% if page_obj.has_previous %}
+                        <a href="{% url 'products:all' %}?page={{page_obj.previous_page_number}}">Previous page</a>
+                    {% else %}
+                        <div>This is the first page.</div>
+                    {% endif %}
+                    <div class="text-danger">Current page: {{ page_obj.number }}</div>
+                    {% if page_obj.has_next %}
+                        <a href="{% url 'products:all' %}?page={{page_obj.next_page_number}}">Next page</a>
+                    {% else %}
+                        <div>This is the last page.</div>
+                    {% endif %}
                 </div>
-                <div>
-                    Extra details:
-                    <ul>
-                        <li>
-                            Color: {{ product.color }}
-                        </li>
-                        <li>
-                            Size: {{ product.human_size }}
-                        </li>
-                        <li>
-                            Gender: {{ product.gender }}
-                        </li>
-                    </ul>
-                </div>
-            </li>
-        {% endfor %}
-    </ul>
+            </div>
+        {% endif %}
+        <ul class="row">
+            {% for product in page_obj %}
+                <li style="margin-bottom: 10px;" class="col-12 col-md-6">
+                    <div>
+                        {{ product.name }} - {{ product.price }} RON <a href="{% url 'products:details' product.id %}">View product</a>
+                    </div>
+                    <div>
+                        Extra details:
+                        <ul>
+                            <li>
+                                Color: {{ product.color }}
+                            </li>
+                            <li>
+                                Size: {{ product.human_size }}
+                            </li>
+                            <li>
+                                Gender: {{ product.gender }}
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <form method="post" action="{% url 'products:add_to_cart' product.id %}">
+                            {% csrf_token %}
+                            <input type="number" value="0" name="quantity" />
+                            <input type="submit" value="Add to cart" />
+                        </form>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 {% endblock %}

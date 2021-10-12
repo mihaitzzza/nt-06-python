@@ -28,3 +28,8 @@ class Activation(models.Model):
 
     def __repr__(self):
         return self.token
+
+
+class Cart(models.Model):
+    user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='cart')  # user.cart
+    data = models.JSONField()
