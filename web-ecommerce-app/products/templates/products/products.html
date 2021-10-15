@@ -11,6 +11,14 @@
                 <h1>My Products Page</h1>
             </div>
         </div>
+        <div class="row">
+            <div class="col-12">
+                <form method="get" action="{% url 'products:all' %}">
+                    {{ form.as_p }}
+                    <input type="submit" value="Apply filters" />
+                </form>
+            </div>
+        </div>
         {% if page_obj.paginator.num_pages > 1 %}
             <div class="row">
                 <div class="col-12">

@@ -1,0 +1,19 @@
+[{
+  "model": "products.category",
+  "id": 1,
+  "fields": {
+    "name": "Category #1"
+  }
+}, {
+  "model": "products.category",
+  "id": 2,
+  "fields": {
+    "name": "Category #2"
+  }
+}, {
+  "model": "products.category",
+  "id": 3,
+  "fields": {
+    "name": "Category #3"
+  }
+}]

@@ -1,0 +1,57 @@
+[{
+  "model": "products.productcategory",
+  "id": 1,
+  "fields": {
+    "product_id": 4,
+    "category_id": 1
+  }
+}, {
+  "model": "products.productcategory",
+  "id": 2,
+  "fields": {
+    "product_id": 5,
+    "category_id": 1
+  }
+}, {
+  "model": "products.productcategory",
+  "id": 3,
+  "fields": {
+    "product_id": 5,
+    "category_id": 2
+  }
+}, {
+  "model": "products.productcategory",
+  "id": 4,
+  "fields": {
+    "product_id": 6,
+    "category_id": 2
+  }
+}, {
+  "model": "products.productcategory",
+  "id": 5,
+  "fields": {
+    "product_id": 6,
+    "category_id": 3
+  }
+}, {
+  "model": "products.productcategory",
+  "id": 6,
+  "fields": {
+    "product_id": 7,
+    "category_id": 2
+  }
+}, {
+  "model": "products.productcategory",
+  "id": 7,
+  "fields": {
+    "product_id": 8,
+    "category_id": 3
+  }
+}, {
+  "model": "products.productcategory",
+  "id": 8,
+  "fields": {
+    "product_id": 9,
+    "category_id": 3
+  }
+}]

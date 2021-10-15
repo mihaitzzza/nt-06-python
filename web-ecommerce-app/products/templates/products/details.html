@@ -5,8 +5,23 @@
 {% endblock %}
 
 {% block content %}
-    <p><strong>Name:</strong> {{ product.name }}</p>
-    <p><strong>Price:</strong> {{ product.price }} RON</p>
-    <p><strong>Store:</strong> {{ product.store.name }}</p>
-    <p><strong>Store Owner:</strong> {{ product.store.owner.username }}</p>
+    <div class="container">
+        <p><strong>Name:</strong> {{ product.name }}</p>
+        <p><strong>Price:</strong> {{ product.price }} RON</p>
+        <p><strong>Store:</strong> {{ product.store.name }}</p>
+        <p><strong>Store Owner:</strong> {{ product.store.owner.username }}</p>
+        <p><strong>Categories</strong></p>
+        <ul>
+            {% for category in product.categories.all %}
+                <li>{{ category.name }} ({{ category.extra_column }})</li>
+            {% endfor %}
+        </ul>
+        {% comment %}
+        <ul>
+            {% for category_pivot in product.categories_pivot.all %}
+                <li>{{ category_pivot.category.name }} ({{ category_pivot.extra_column }})</li>
+            {% endfor %}
+        </ul>
+        {% endcomment %}
+    </div>
 {% endblock %}
