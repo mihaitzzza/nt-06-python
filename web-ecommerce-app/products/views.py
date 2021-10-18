@@ -6,18 +6,15 @@ from utils.cart import Cart
 
 
 def show_all_products(request):
-    # print('request.GET', request.GET)
-    # form = FilterProductsForm(data=request.GET)
-    # products = form.apply_filters()
-    products = Product.objects.all()
+    form = FilterProductsForm(data=request.GET)
+    products = form.apply_filters()
 
     paginator = Paginator(products, 4)
     page_obj = paginator.get_page(request.GET.get('page', 1))
 
     return render(request, 'products/products.html', {
         'page_obj': page_obj,
-        # 'form': form,
-        'form': FilterProductsForm()
+        'form': form,
     })
 
 
