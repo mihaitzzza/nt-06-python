@@ -10,13 +10,13 @@ from utils.constants.activation import ACTIVATION_DICT
 
 
 def login_user(request):
-    print('request.user', request.user)
     if request.user.is_authenticated:
         return redirect('/')
 
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
+        next = request.POST.get('next', None)
 
         # if not username or not password:
         #     raise Http404('Username or password not provided!')
@@ -26,6 +26,10 @@ def login_user(request):
             raise Http404('Username or password not provided!')
         else:
             login(request, user)
+
+            if next:
+                return redirect(next)
+
             return redirect('/')
 
     return render(request, 'users/login.html', {})

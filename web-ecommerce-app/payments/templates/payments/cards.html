@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% if cards|length > 0 %}
+        <ul>
+            {% for card in cards %}
+                <li>
+                    {{ card.last4 }}
+                    <form method="post" action="{% 'payments:delete_card' card. %}">
+                        {% csrf_token %}
+                        <input type="submit" value="Remove" />
+                    </form>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>You don't have any available payment methods. Please register one <a href="{% url 'payments:add_card' %}">here</a>.</p>
+    {% endif %}
+{% endblock %}

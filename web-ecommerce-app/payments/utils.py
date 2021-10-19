@@ -11,3 +11,15 @@ def create_stripe_customer_model(user_instance):
     )
 
     StripeCustomer.objects.create(user=user_instance, stripe_id=stripe_customer['id'])
+
+
+def get_user_payment_methods_details(user):
+    payment_methods_response = stripe.PaymentMethod.list(
+        customer=user.stripe_customer.stripe_id,
+        type='card',
+        api_key=settings.STRIPE_SECRET_KEY,
+    )
+
+    cards = [data['card'] for data in payment_methods_response['data']]
+
+    return cards

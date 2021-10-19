@@ -3,6 +3,7 @@ from django.core.paginator import Paginator
 from products.models import Product
 from products.forms import FilterProductsForm
 from utils.cart import Cart
+from payments.utils import get_user_payment_methods_details
 
 
 def show_all_products(request):
@@ -68,9 +69,12 @@ def show_checkout(request):
         for product in products
     ]
 
+    available_cards = get_user_payment_methods_details(request.user)
+
     return render(request, 'products/checkout.html', {
         'cart_items': cart_items,
-        'cart': cart
+        'cart': cart,
+        'available_cards': available_cards,
     })
 
 
