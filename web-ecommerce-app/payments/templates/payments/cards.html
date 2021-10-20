@@ -4,15 +4,19 @@
     {% if cards|length > 0 %}
         <ul>
             {% for card in cards %}
-                <li>
-                    {{ card.last4 }}
-                    <form method="post" action="{% 'payments:delete_card' card. %}">
+                <li style="margin-bottom: 20px;">
+                    <div><strong>Card number:</strong> {{ card.number }}</div>
+                    <div><strong>Expires on:</strong> {{ card.exp_month }}/{{ card.exp_year }}</div>
+                    <form method="post" action="{% url 'payments:delete_card' card.id %}">
                         {% csrf_token %}
                         <input type="submit" value="Remove" />
                     </form>
                 </li>
             {% endfor %}
         </ul>
+        <p>
+            You can add another card <a href="{% url 'payments:add_card' %}">here</a>.
+        </p>
     {% else %}
         <p>You don't have any available payment methods. Please register one <a href="{% url 'payments:add_card' %}">here</a>.</p>
     {% endif %}
