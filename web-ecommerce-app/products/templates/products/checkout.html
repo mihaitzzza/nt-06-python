@@ -18,16 +18,16 @@
                     </li>
                 {% endfor %}
             </ul>
-            {% if available_cards|length == 0 %}
+
+            {% if select_card_form.fields.card.choices|length == 0 %}
                 <p>There are no payment methods available. Please register one <a href="{% url 'payments:add_card' %}">here</a>.</p>
             {% else %}
-                {% for card in available_cards %}
-                    <li>{{ card.last4 }}</li>
-                {% endfor %}
+                <form method="post" action="{% url 'payments:order' %}">
+                    {% csrf_token %}
+                    {{ select_card_form.as_p }}
+                    <input type="submit" value="Order" />
+                </form>
             {% endif %}
-            <form>
-                <input type="submit" value="Order" />
-            </form>
         {% endif %}
     </div>
 {% endblock %}

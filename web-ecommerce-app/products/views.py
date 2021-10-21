@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, Http404, redirect, reverse
 from django.core.paginator import Paginator
 from products.models import Product
-from products.forms import FilterProductsForm
+from products.forms import FilterProductsForm, SelectCardForm
 from utils.cart import Cart
 from payments.utils import get_user_payment_methods_details
 
@@ -69,12 +69,15 @@ def show_checkout(request):
         for product in products
     ]
 
-    available_cards = get_user_payment_methods_details(request.user)
+    # available_cards = get_user_payment_methods_details(request.user)
+
+    select_card_form = SelectCardForm(request.user)
 
     return render(request, 'products/checkout.html', {
         'cart_items': cart_items,
         'cart': cart,
-        'available_cards': available_cards,
+        # 'available_cards': available_cards,
+        'select_card_form': select_card_form
     })
 
 

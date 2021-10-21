@@ -1,5 +1,6 @@
 from django import forms
 from products.models import Category, Product
+from payments.models import StripeCard
 
 ORDER_BY_CHOICES = (('POPULARITY', 'Popularity'), ('PRICE_ASC', 'Price ascending'), ('PRICE_DESC', 'Price descending'))
 
@@ -16,7 +17,7 @@ def get_orderby_field(order_by):
 
 class FilterProductsForm(forms.Form):
     order_by = forms.ChoiceField(choices=ORDER_BY_CHOICES)
-    categories = forms.MultipleChoiceField(choices=(), widget=forms.CheckboxSelectMultiple)
+    categories = forms.MultipleChoiceField(choices=(), widget=forms.CheckboxSelectMultiple, required=False)
     min_price = forms.DecimalField(max_digits=5, decimal_places=2, required=False)
     max_price = forms.DecimalField(max_digits=5, decimal_places=2, required=False)
 
@@ -53,3 +54,31 @@ class FilterProductsForm(forms.Form):
             return products
 
         return Product.objects.all()
+
+
+class SelectCardForm(forms.Form):
+    card = forms.ChoiceField(choices=(), widget=forms.RadioSelect)
+
+    def __init__(self, user, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        self._user = user
+
+        self.fields['card'].choices = tuple((card.id, card.number) for card in self._user.stripe_customer.cards.all())
+
+    def clean_card(self):
+        card_id = self.cleaned_data['card']
+
+        try:
+            card = StripeCard.objects.get(id=card_id)
+        except StripeCard.DoesNotExist:
+            card = None
+
+        if card is None:
+            raise forms.ValidationError('Selected card is invalid.')
+
+        if card.stripe_customer.user.id != self._user.id:
+            raise forms.ValidationError('Selected card is invalid.')
+
+        return card
+

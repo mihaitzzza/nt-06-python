@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <ul>
+            {% for order in orders %}
+                <li style="margin-bottom: 20px;">
+                    <div>Total: {{ order.amount }} RON</div>
+                    <a href="{% url 'payments:order_details' order.id %}">View details</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

@@ -1,5 +1,7 @@
 import json
 from users.models.details import Cart as CartModel
+from products.models import Product
+from payments.models import Order, OrderItem
 
 
 class Cart:
@@ -7,6 +9,19 @@ class Cart:
         self._user = request.user
         self._data = request.session['cart'] if 'cart' in request.session else {}
         self._session = request.session
+
+    @property
+    def amount(self):
+        products = Product.objects.filter(id__in=self._data.keys())
+        return self._get_products_total(products)
+
+    def _get_products_total(self, products):
+        total = sum([
+            float(product.price) * int(self._data[str(product.id)])
+            for product in products
+        ])
+
+        return total
 
     def add(self, product_id, quantity):
         product_id_str = str(product_id)
@@ -35,3 +50,26 @@ class Cart:
             self._user.cart.save()
         else:
             CartModel.objects.create(user=self._user, data=json.dumps(self._data))
+
+    def create_order(self):
+        order = Order.objects.create(
+            user=self._user,
+        )
+
+        products = Product.objects.filter(id__in=self._data.keys())
+        total = self._get_products_total(products)
+
+        for product in products:
+            OrderItem.objects.create(
+                order=order,
+                product=product,
+                price=product.price,
+            )
+
+        self._reset()
+
+        return order, total
+
+    def _reset(self):
+        self._data = {}
+        self._save()

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <div><strong>Total price:</strong> {{ order.amount }} RON</div>
+        <ul>
+            {% for item in order.items.all %}
+            <li style="margin-bottom: 20px">
+                <div>
+                    <strong>Name:</strong>
+                    {% if item.product %}
+                        <a href="{% url 'products:details' item.product.id %}">{{ item.product.name }}</a>
+                    {% else %}
+                        Unavailable
+                    {% endif %}
+                </div>
+                <div><strong>Price:</strong> {{ item.price }} RON</div>
+                <div><strong>Quantity:</strong> {{ item.quantity }}</div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}
