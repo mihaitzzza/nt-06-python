@@ -16,7 +16,7 @@ class Product(models.Model):
     store = models.ForeignKey(Store, on_delete=models.CASCADE, related_name='products', default=None, null=True)
     # category = models.ForeignKey(Category, on_delete=models.SET_NULL, related_name='products', null=True, default=None)
     # category = models.ManyToManyField(Category, related_name='products')
-    categories = models.ManyToManyField(Category, through='ProductCategory')
+    categories = models.ManyToManyField(Category, through='ProductCategory', related_name='products')
     quantity = models.IntegerField(default=0, null=False)
     price = models.DecimalField(max_digits=5, decimal_places=2)  # max => 999.99
     color = models.CharField(max_length=10, null=False)

@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from graphene_django.views import GraphQLView
+from django.views.decorators.csrf import csrf_exempt
 from ecommerce.views import homepage_view
 
 urlpatterns = [
@@ -27,6 +29,7 @@ urlpatterns = [
     path('users/', include('users.urls')),
     path('api/', include('api.urls')),
     path('payments/', include('payments.urls')),
+    path('graphql/', csrf_exempt(GraphQLView.as_view(graphiql=True)))
 ]
 
 if settings.DEBUG is True:

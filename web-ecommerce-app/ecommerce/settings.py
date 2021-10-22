@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'products.apps.ProductsConfig',
     'stores.apps.StoresConfig',
     'users.apps.UsersConfig',
+    'graphene_django',
     'rest_framework',
     'corsheaders',
     'django.contrib.admin',
@@ -173,3 +174,15 @@ STRIPE_PUBLIC_KEY = config('STRIPE_PUBLIC_KEY')
 STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY')
 
 LOGIN_URL = 'users:login'
+
+GRAPHENE = {
+    "SCHEMA": "graphqlapi.schema.schema",
+    "MIDDLEWARE": [
+        "graphql_jwt.middleware.JSONWebTokenMiddleware",
+    ],
+}
+
+AUTHENTICATION_BACKENDS = [
+    "graphql_jwt.backends.JSONWebTokenBackend",
+    "django.contrib.auth.backends.ModelBackend",
+]
