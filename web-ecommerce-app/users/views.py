@@ -48,7 +48,7 @@ def register_user(request):
 
         if form.is_valid():
             user = form.save()
-            login(request, user)
+            login(request, user, backend='django.contrib.auth.backends.ModelBackend')
             return redirect('/')
 
     return render(request, 'users/register.html', {

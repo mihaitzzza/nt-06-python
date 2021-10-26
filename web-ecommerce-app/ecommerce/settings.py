@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'products.apps.ProductsConfig',
     'stores.apps.StoresConfig',
     'users.apps.UsersConfig',
+    'social_django',
     'graphene_django',
     'rest_framework',
     'corsheaders',
@@ -183,6 +184,39 @@ GRAPHENE = {
 }
 
 AUTHENTICATION_BACKENDS = [
+    "social_core.backends.google.GoogleOAuth2",
+    "social_core.backends.facebook.FacebookOAuth2",
     "graphql_jwt.backends.JSONWebTokenBackend",
     "django.contrib.auth.backends.ModelBackend",
 ]
+
+SOCIAL_AUTH_URL_NAMESPACE = 'users:social'
+
+SOCIAL_AUTH_FACEBOOK_KEY = config('FACEBOOK_APP_ID')
+SOCIAL_AUTH_FACEBOOK_SECRET = config('FACEBOOK_SECRET')
+SOCIAL_AUTH_FACEBOOK_API_VERSION = '12.0'
+SOCIAL_AUTH_FACEBOOK_SCOPE = ['email', 'public_profile']
+SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
+    'fields': 'email,first_name,last_name'
+}
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = config('GOOGLE_CLIENT_ID')
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = config('GOOGLE_SECRET_KEY')
+
+SOCIAL_AUTH_PIPELINE = (
+    'social_core.pipeline.social_auth.social_details',
+    'social_core.pipeline.social_auth.social_uid',
+    'social_core.pipeline.social_auth.auth_allowed',
+    'social_core.pipeline.social_auth.social_user',
+    'social_core.pipeline.user.get_username',
+    # 'social_core.pipeline.user.create_user',  # original from social-django-auth
+    'social_core.pipeline.social_auth.associate_by_email',
+    'users.social_auth_pipelines.create_user',
+    'users.social_auth_pipelines.set_profile_picture',
+    # 'path.to.save_profile',  # <--- set the path to the function
+    'social_core.pipeline.social_auth.associate_user',
+    'social_core.pipeline.social_auth.load_extra_data',
+    'social_core.pipeline.user.user_details',
+)
+
+LOGIN_REDIRECT_URL = 'users:profile'

@@ -1,5 +1,7 @@
 import json
 import secrets
+from builtins import hasattr
+
 from django.db.models.signals import post_save, pre_save
 from django.dispatch import receiver
 from django.contrib.auth import get_user_model
@@ -18,7 +20,9 @@ def create_profile(instance, created, **kwargs):
 
 @receiver(pre_save, sender=AuthUserModel)
 def inactivate_user(instance, **kwargs):
-    if instance.pk is None:
+    is_social_user = instance.is_social_user if hasattr(instance, 'is_social_user') else False
+
+    if instance.pk is None and not is_social_user:
         instance.is_active = False
         instance.password = None
 

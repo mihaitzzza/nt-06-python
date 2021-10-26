@@ -4,12 +4,16 @@ from django.utils.translation import gettext_lazy as _
 
 
 class AuthUserManager(BaseUserManager):
-    def create_user(self, email, first_name, last_name):
+    def create_user(self, email, first_name, last_name, is_social_user=False):
         user = self.model(
             email=email,
             first_name=first_name,
             last_name=last_name,
         )
+
+        if is_social_user:
+            user.is_social_user = is_social_user
+
         user.save()
 
         return user
