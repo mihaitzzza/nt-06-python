@@ -16,6 +16,9 @@ class Category(models.Model):
     name = models.CharField(max_length=128, null=False)
 
     def __str__(self):
+        return self.name
+
+    def __repr__(self):
         return '<Category ID=%s | name="%s"' % (self.id, self.name)
 
 
@@ -44,10 +47,17 @@ class Product(models.Model):
     store_name.admin_order_field = 'store__name'
 
     def __str__(self):
+        return self.name
+
+    def __repr__(self):
         return f'<Product object ID = {self.id}>'
 
 
 class ProductCategory(models.Model):
+    class Meta:
+        verbose_name = 'product category'
+        verbose_name_plural = 'product categories'
+
     product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='categories_pivot')  # product.categories[0].category.name
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='products_pivot')  # category.products[0].product.name
     extra_column = models.IntegerField(null=True, default=None)

@@ -1,12 +1,18 @@
 from django.contrib import admin
 from django.utils.html import format_html
 from my_admin.admin import my_admin_site
-from products.models import Category, Product
+from products.models import Category, Product, ProductCategory
+from stores.models import Store
 
 
 @admin.register(Category, site=my_admin_site)
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ('name',)
+
+
+class ProductCategoryTabularInline(admin.TabularInline):
+    model = ProductCategory
+    extra = 1
 
 
 @admin.register(Product, site=my_admin_site)
@@ -21,7 +27,25 @@ class ProductAdmin(admin.ModelAdmin):
     color_html.short_description = 'color'
     color_html.admin_order_field = 'color'
 
-    list_display = ('name', 'store_name', 'price', 'color_html', 'size')
+    def get_categories(self, obj):
+        product_categories = obj.categories.order_by('id').all()
+
+        if len(product_categories) > 0:
+            return ', '.join([category.name for category in product_categories])
+
+        return 'N/A'
+    get_categories.short_description = 'categories'
+
+    list_display = ('name', 'store_name', 'price', 'color_html', 'size', 'get_categories')
+    search_fields = ('name', 'color', 'store__name', 'categories__name')
+    ordering = ('store__name', 'price', 'color')
+    inlines = (ProductCategoryTabularInline,)
+
+    def formfield_for_foreignkey(self, db_field, request, **kwargs):
+        if db_field.name == 'store' and not request.user.is_superuser:
+            kwargs['queryset'] = Store.objects.filter(owner=request.user)
+
+        return super().formfield_for_foreignkey(db_field, request, **kwargs)
 
 
 # admin.site.register(Category, site=my_admin_site)
