@@ -8,7 +8,15 @@ AuthUserModel = get_user_model()
 
 
 class Category(models.Model):
+    class Meta:
+        verbose_name = 'category'
+        verbose_name_plural = 'categories'
+        ordering = ('-id',)
+
     name = models.CharField(max_length=128, null=False)
+
+    def __str__(self):
+        return '<Category ID=%s | name="%s"' % (self.id, self.name)
 
 
 class Product(models.Model):
@@ -26,6 +34,14 @@ class Product(models.Model):
     @property
     def human_size(self):
         return SIZES.get(self.size, None)
+
+    def store_name(self):
+        if hasattr(self.store, 'name'):
+            return self.store.name
+
+        return '-'
+    store_name.short_description = 'shop name'
+    store_name.admin_order_field = 'store__name'
 
     def __str__(self):
         return f'<Product object ID = {self.id}>'

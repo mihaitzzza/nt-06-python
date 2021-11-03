@@ -33,12 +33,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'my_admin.apps.MyAdminConfig',
     'payments.apps.PaymentsConfig',
     'api.apps.ApiConfig',
     'products.apps.ProductsConfig',
     'stores.apps.StoresConfig',
     'users.apps.UsersConfig',
+    'my_admin.apps.MyAdminConfig',
     'social_django',
     'graphene_django',
     'rest_framework',
