@@ -22,7 +22,8 @@ from django.views.decorators.csrf import csrf_exempt
 from ecommerce.views import homepage_view
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
+    path('admin/', include('my_admin.urls')),
     path('', homepage_view),
     path('products/', include('products.urls')),
     path('stores/', include('stores.urls')),

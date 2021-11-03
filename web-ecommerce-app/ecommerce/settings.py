@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'my_admin.apps.MyAdminConfig',
     'payments.apps.PaymentsConfig',
     'api.apps.ApiConfig',
     'products.apps.ProductsConfig',
@@ -42,7 +43,8 @@ INSTALLED_APPS = [
     'graphene_django',
     'rest_framework',
     'corsheaders',
-    'django.contrib.admin',
+    'my_admin.apps.MyAdminSiteConfig',
+    # 'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
