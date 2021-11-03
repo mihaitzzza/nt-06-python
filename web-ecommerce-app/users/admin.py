@@ -1,10 +1,11 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
+from my_admin.admin import my_admin_site
 from users.models import AuthUser
 
 
-@admin.register(AuthUser)
+@admin.register(AuthUser, site=my_admin_site)
 class AdminAuthUser(BaseUserAdmin):
     ordering = ('email',)
     list_display = ('email', 'first_name', 'last_name', 'is_staff')
