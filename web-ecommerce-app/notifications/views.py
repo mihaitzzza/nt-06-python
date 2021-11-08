@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404, Http404, redirect, reverse
 from django.contrib.auth.decorators import login_required
 from notifications.models import Notification
 
@@ -13,3 +13,19 @@ def show_notifications(request):
     return render(request, 'notifications/view_all.html', {
         'notifications': notifications
     })
+
+
+@login_required
+def mark_as_seen(request, id):
+    if request.method == 'POST':
+        notification = get_object_or_404(Notification, pk=id)
+
+        if notification.user.id != request.user.id and notification.is_seen:
+            return Http404('Not found!')
+
+        notification.is_seen = True
+        notification.save()
+
+        return redirect(reverse('notifications:view_all'))
+
+    return Http404('Method not allowed!')

@@ -7,6 +7,12 @@
             <li>
                 <div>{{ notification.message }}</div>
                 <div>Click <a href="{{ notification.link }}">here</a> for more details.</div>
+                {% if not notification.is_seen %}
+                    <form method="post" action="{% url 'notifications:mark_as_seen' notification.id %}">
+                        {% csrf_token %}
+                        <input type="submit" value="Mark as seen" />
+                    </form>
+                {% endif %}
             </li>
         {% endfor %}
     </ul>

@@ -1,4 +1,5 @@
 {% load cart %}
+{% load notifications %}
 
 <div class="container">
     <div class="row">
@@ -11,7 +12,7 @@
                     {% cart_link request.session %}
                     <a href="{% url 'payments:orders' %}">Orders</a>
                     <a href="{% url 'payments:cards' %}">Payment methods</a>
-                    <a href="{% url 'notifications:view_all' %}">Notifications</a>
+                    <a href="{% url 'notifications:view_all' %}">Notifications ({{ request.user.notifications | unseen }})</a>
                     {% if request.user.is_superuser %}
                         <a href="/admin">Admin</a>
                     {% endif %}
