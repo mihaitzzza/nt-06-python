@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Notifications</h1>
+    <ul>
+        {% for notification in notifications %}
+            <li>
+                <div>{{ notification.message }}</div>
+                <div>Click <a href="{{ notification.link }}">here</a> for more details.</div>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

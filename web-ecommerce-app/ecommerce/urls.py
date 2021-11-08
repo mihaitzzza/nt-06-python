@@ -30,7 +30,8 @@ urlpatterns = [
     path('users/', include('users.urls')),
     path('api/', include('api.urls')),
     path('payments/', include('payments.urls')),
-    path('graphql/', csrf_exempt(GraphQLView.as_view(graphiql=True)))
+    path('graphql/', csrf_exempt(GraphQLView.as_view(graphiql=True))),
+    path('notifications/', include('notifications.urls')),
 ]
 
 if settings.DEBUG is True:

@@ -1,6 +1,8 @@
 from django.contrib import admin
+from django.shortcuts import reverse
 from my_admin.admin import my_admin_site
 from stores.models import Store
+from notifications.utils import create_notification
 
 
 @admin.register(Store, site=my_admin_site)
@@ -28,5 +30,10 @@ class StoreAdmin(admin.ModelAdmin):
         if not obj.pk and not request.user.is_superuser:
             obj.owner = request.user
 
-        return super().save_model(request, obj, form, change)
+        super().save_model(request, obj, form, change)
+        print('obj', obj)
+
+        message = f'Store {obj.name} is finally here!'
+        link = reverse('stores:details', args=(obj.id,))
+        create_notification(obj=obj, message=message, link=link)
 

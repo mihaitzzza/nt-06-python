@@ -1,8 +1,10 @@
 from django.contrib import admin
+from django.shortcuts import reverse
 from django.utils.html import format_html
 from my_admin.admin import my_admin_site
 from products.models import Category, Product, ProductCategory
 from stores.models import Store
+from notifications.utils import create_notification
 
 
 @admin.register(Category, site=my_admin_site)
@@ -46,6 +48,13 @@ class ProductAdmin(admin.ModelAdmin):
             kwargs['queryset'] = Store.objects.filter(owner=request.user)
 
         return super().formfield_for_foreignkey(db_field, request, **kwargs)
+
+    def save_model(self, request, obj, form, change):
+        super().save_model(request, obj, form, change)
+
+        message = f'Product {obj.name} was added to our platform.'
+        link = reverse('products:details', args=(obj.id,))
+        create_notification(obj, message, link)
 
 
 # admin.site.register(Category, site=my_admin_site)
