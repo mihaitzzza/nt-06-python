@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'notifications.apps.NotificationsConfig',
     'payments.apps.PaymentsConfig',
     'api.apps.ApiConfig',
     'products.apps.ProductsConfig',
