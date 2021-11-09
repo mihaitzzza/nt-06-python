@@ -31,9 +31,6 @@ class StoreAdmin(admin.ModelAdmin):
             obj.owner = request.user
 
         super().save_model(request, obj, form, change)
-        print('obj', obj)
 
-        message = f'Store {obj.name} is finally here!'
-        link = reverse('stores:details', args=(obj.id,))
-        create_notification(obj=obj, message=message, link=link)
+        create_notification(obj, 'new_store')
 

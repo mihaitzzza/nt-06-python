@@ -4,8 +4,8 @@ from notifications.models import Notification
 AuthUserModel = get_user_model()
 
 
-def create_notification(obj, message, link):
-    if not obj or not message or not link:
+def create_notification(obj, type):
+    if not obj:
         raise ValueError('Required data not provided.')
 
     users = AuthUserModel.objects.filter(is_staff=False).all()
@@ -14,6 +14,5 @@ def create_notification(obj, message, link):
         Notification.objects.create(
             user=user,
             content_object=obj,
-            message=message,
-            link=link
+            type=type,
         )

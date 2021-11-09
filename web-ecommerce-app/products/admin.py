@@ -52,9 +52,7 @@ class ProductAdmin(admin.ModelAdmin):
     def save_model(self, request, obj, form, change):
         super().save_model(request, obj, form, change)
 
-        message = f'Product {obj.name} was added to our platform.'
-        link = reverse('products:details', args=(obj.id,))
-        create_notification(obj, message, link)
+        create_notification(obj, 'new_product')
 
 
 # admin.site.register(Category, site=my_admin_site)
