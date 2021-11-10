@@ -3,19 +3,12 @@ from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
 from django.conf import settings
 from django.shortcuts import reverse
+from ecommerce.models import TimestampModel
 
 
 class NotificationTypes(models.TextChoices):
     NEW_STORE = 'new_store'
     NEW_PRODUCT = 'new_product'
-
-
-class TimestampModel(models.Model):
-    class Meta:
-        abstract = True
-
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated = models.DateTimeField(auto_now=True)
 
 
 class Notification(TimestampModel):

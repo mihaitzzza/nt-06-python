@@ -5,6 +5,10 @@ from django.utils import timezone
 from utils.constants.activation import ACTIVATION_DICT
 
 
+def expires_at_time():
+    return timezone.now() + timezone.timedelta(**ACTIVATION_DICT)
+
+
 class Profile(models.Model):
     user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='profile')
     avatar = models.ImageField(upload_to='profile_images/', null=True, default=None)
@@ -20,7 +24,7 @@ class Profile(models.Model):
 class Activation(models.Model):
     user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='activation')
     token = models.CharField(max_length=64, null=True, default=None, blank=False, unique=True)
-    expires_at = models.DateTimeField(default=timezone.now() + timezone.timedelta(**ACTIVATION_DICT))
+    expires_at = models.DateTimeField(default=expires_at_time)
     activated_at = models.DateTimeField(null=True, default=None, blank=False)
 
     def __str__(self):

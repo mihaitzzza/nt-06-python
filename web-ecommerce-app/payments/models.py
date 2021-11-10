@@ -1,6 +1,8 @@
+from uuid import uuid4
 from django.db import models
 from django.contrib.auth import get_user_model
 from products.models import Product
+from ecommerce.models import TimestampModel
 
 AuthUserModel = get_user_model()
 
@@ -23,8 +25,18 @@ class StripeCard(models.Model):
         return '**** ' * 3 + str(self.last4)
 
 
-class Order(models.Model):
+class Order(TimestampModel):
     user = models.ForeignKey(AuthUserModel, on_delete=models.SET_NULL, null=True, default=None, related_name='orders')
+    number = models.CharField(max_length=50, null=True, default=uuid4)
+
+    def human_date(self):
+        return self.created_at.strftime('%Y-%m-%d %H:%M:%S')
+    human_date.short_description = 'date'
+    human_date.admin_order_field = 'created_at'
+
+    def currency_amount(self):
+        return f'{self.amount} RON'
+    currency_amount.short_description = 'Price'
 
     @property
     def amount(self):
