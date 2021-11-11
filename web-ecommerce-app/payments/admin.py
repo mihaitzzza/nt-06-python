@@ -1,6 +1,7 @@
 from django.contrib import admin
 from payments.models import Order
 from my_admin.admin import my_admin_site
+from payments.utils import generate_xlsx_report
 
 
 class PriceFilter(admin.SimpleListFilter):
@@ -43,6 +44,7 @@ class OrderAdmin(admin.ModelAdmin):
     def generate_report(self, request, queryset):
         report_orders = [
             {
+                "id": order.id,
                 "number": order.number,
                 "date": order.created_at.strftime('%Y-%m-%d %H:%M:%S'),
                 "products": [
@@ -56,7 +58,9 @@ class OrderAdmin(admin.ModelAdmin):
             }
             for order in queryset
         ]
-        print('report_orders', report_orders)
+
+        file_path = generate_xlsx_report(report_orders)
+        print('file_path', file_path)
 
     list_display = ('number', 'currency_amount', 'human_date')
     list_filter = ('created_at', PriceFilter)
