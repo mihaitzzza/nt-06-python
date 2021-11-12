@@ -60,3 +60,11 @@ class OrderItem(models.Model):
             return 'Unknown'
 
         return self.product.name
+
+
+class Report(TimestampModel):
+    user = models.ForeignKey(AuthUserModel, on_delete=models.SET_NULL, null=True, default=None)
+    file = models.FileField(upload_to='reports', null=False)
+
+    def __str__(self):
+        return self.file.name

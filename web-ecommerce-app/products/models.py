@@ -23,6 +23,9 @@ class Category(models.Model):
 
 
 class Product(models.Model):
+    class Meta:
+        ordering = ['id']
+
     name = models.CharField(max_length=128, null=False)
     store = models.ForeignKey(Store, on_delete=models.CASCADE, related_name='products', default=None, null=True)
     # category = models.ForeignKey(Category, on_delete=models.SET_NULL, related_name='products', null=True, default=None)
@@ -43,6 +46,7 @@ class Product(models.Model):
             return self.store.name
 
         return '-'
+
     store_name.short_description = 'shop name'
     store_name.admin_order_field = 'store__name'
 
@@ -58,6 +62,8 @@ class ProductCategory(models.Model):
         verbose_name = 'product category'
         verbose_name_plural = 'product categories'
 
-    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='categories_pivot')  # product.categories[0].category.name
-    category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='products_pivot')  # category.products[0].product.name
+    product = models.ForeignKey(Product, on_delete=models.CASCADE,
+                                related_name='categories_pivot')  # product.categories[0].category.name
+    category = models.ForeignKey(Category, on_delete=models.CASCADE,
+                                 related_name='products_pivot')  # category.products[0].product.name
     extra_column = models.IntegerField(null=True, default=None)

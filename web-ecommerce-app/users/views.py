@@ -16,7 +16,7 @@ def login_user(request):
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
-        next = request.POST.get('next', None)
+        next_ = request.POST.get('next', None)
 
         # if not username or not password:
         #     raise Http404('Username or password not provided!')
@@ -27,8 +27,8 @@ def login_user(request):
         else:
             login(request, user)
 
-            if next:
-                return redirect(next)
+            if next_:
+                return redirect(next_)
 
             return redirect('/')
 

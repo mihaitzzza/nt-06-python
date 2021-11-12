@@ -10,3 +10,7 @@ AuthUserModel = get_user_model()
 def create_stripe_customer(created, instance, **kwargs):
     if created:
         create_stripe_customer_model(instance)
+
+    # Create Stripe Customer only on activation.
+    # if instance.is_active and not hasattr(instance, 'stripe_customer'):
+    #     create_stripe_customer_model(instance)

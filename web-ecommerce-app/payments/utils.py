@@ -88,4 +88,4 @@ def generate_xlsx_report(orders):
 
     workbook.close()
 
-    return file_path
+    return os.path.join('reports', file_name)

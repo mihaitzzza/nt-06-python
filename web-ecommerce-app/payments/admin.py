@@ -2,6 +2,8 @@ from django.contrib import admin
 from payments.models import Order
 from my_admin.admin import my_admin_site
 from payments.utils import generate_xlsx_report
+from payments.models import Report
+from django.shortcuts import redirect
 
 
 class PriceFilter(admin.SimpleListFilter):
@@ -59,9 +61,19 @@ class OrderAdmin(admin.ModelAdmin):
             for order in queryset
         ]
 
-        file_path = generate_xlsx_report(report_orders)
-        print('file_path', file_path)
+        media_path = generate_xlsx_report(report_orders)
+
+        report = Report(user=request.user)
+        report.file.name = media_path
+        report.save()
+
+        return redirect(f'/admin/payments/report/{report.id}/change/')
 
     list_display = ('number', 'currency_amount', 'human_date')
     list_filter = ('created_at', PriceFilter)
     actions = (generate_report,)
+
+
+@admin.register(Report, site=my_admin_site)
+class ReportAdmin(admin.ModelAdmin):
+    list_display = ('created_at', 'file')
