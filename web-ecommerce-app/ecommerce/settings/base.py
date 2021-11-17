@@ -15,7 +15,8 @@ from pathlib import Path
 from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+print('BASE_DIR', BASE_DIR)
 
 
 # Quick-start development settings - unsuitable for production
@@ -23,11 +24,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -140,9 +136,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'assets'),
-]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -161,8 +154,6 @@ EMAIL_HOST_PASSWORD = config('EMAIL_PASS')
 DEFAULT_EMAIL_FROM = EMAIL_HOST_USER
 
 AUTH_USER_MODEL = 'users.AuthUser'
-
-LOCALHOST_DOMAIN = 'http://localhost:8000'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
